@@ -1,5 +1,7 @@
 @extends('layout.main')
+<!-- title -->
 @section('title', 'Halaman Utama')
+<!-- container halaman -->
 @section('container')
 <div class="container">
 	<div class="row">
