@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
+#menuju tampilan home / tampilan welcome / index
+Route::get('/', 'PagesController@home');
+#menuju tampilan about
+Route::get('/about', 'PagesController@about');
