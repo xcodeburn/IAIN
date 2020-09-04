@@ -19,5 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 #menuju tampilan home / tampilan welcome / index
 Route::get('/', 'PagesController@home');
+Route::get('/welcome', 'PagesController@welcome');
 #menuju tampilan about
 Route::get('/about', 'PagesController@about');
+
+Route::post('upload', 'HomeController@upload');
