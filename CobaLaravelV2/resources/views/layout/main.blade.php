@@ -12,11 +12,11 @@
 	<title>@yield('title')</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 		<div class="container">
 			<a class="navbar-brand" href="#">
-				<img src="/storage/{'app/public/l_rohil.png'}" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-				Bootstrap
+				<img src="{{url('/storage/HbMRjZXXhnAhy27lrXRsRFUaKKF3w2HHi9hLq3gX.png')}}" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+				DESA PARE-PARE
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -29,6 +29,11 @@
 					<a class="nav-link" href="{{ url ('/students')}}">Tampil Data students</a>
 				</div>
 			</div>
+			<form class="form-inline">
+				@csrf
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
 		</div>
 	</nav>
 	@yield('container')

@@ -13,14 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::get('/', function () {
-    return view('welcome');
-});*/
-
-#menuju tampilan home / tampilan welcome / index
 Route::get('/', 'PagesController@home');
 Route::get('/welcome', 'PagesController@welcome');
+
 #menuju tampilan about
 Route::get('/about', 'PagesController@about');
 
 Route::post('upload', 'HomeController@upload');
+
+/*Untuk menampilkan logo Rohil*/
+Route::get('home', 'HomeController@show');
