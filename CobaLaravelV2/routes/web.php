@@ -17,7 +17,7 @@ Route::get('/', 'PagesController@home');
 Route::get('/welcome', 'PagesController@welcome');
 
 #menuju tampilan Data Penduduk
-Route::get('/data_penduduk', 'PagesController@data_penduduk');
+Route::get('/Penduduk', 'DatasController@index');
 Route::get('/about', 'PagesController@about');
 Route::post('upload', 'HomeController@upload');
 

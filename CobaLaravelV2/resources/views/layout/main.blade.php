@@ -25,7 +25,7 @@
 				<div class="navbar-nav">
 					<a class="nav-link active" href="{{ url ('/')}}">Home</a>
 					<!-- <a class="nav-link active" href="{{ url ('/welcome')}}">Upload Berkas</a> -->
-					<a class="nav-link" href="{{ url ('/data_penduduk')}}">Data Penduduk</a>
+					<a class="nav-link" href="{{ url ('/Penduduk')}}">Data Penduduk</a>
 					<a class="nav-link" href="{{ url ('/about')}}">Visi dan Misi</a>
 				</div>
 			</div>
