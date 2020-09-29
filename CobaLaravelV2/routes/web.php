@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@home');
 Route::get('/welcome', 'PagesController@welcome');
 
-#menuju tampilan about
+#menuju tampilan Data Penduduk
+Route::get('/data_penduduk', 'PagesController@data_penduduk');
 Route::get('/about', 'PagesController@about');
-
 Route::post('upload', 'HomeController@upload');
 
 /*Untuk menampilkan logo Rohil*/

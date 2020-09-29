@@ -24,9 +24,9 @@
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
 					<a class="nav-link active" href="{{ url ('/')}}">Home</a>
-					<a class="nav-link active" href="{{ url ('/welcome')}}">welcome</a>
-					<a class="nav-link" href="{{ url ('/about')}}">About</a>
-					<a class="nav-link" href="{{ url ('/students')}}">Tampil Data students</a>
+					<!-- <a class="nav-link active" href="{{ url ('/welcome')}}">Upload Berkas</a> -->
+					<a class="nav-link" href="{{ url ('/data_penduduk')}}">Data Penduduk</a>
+					<a class="nav-link" href="{{ url ('/about')}}">Visi dan Misi</a>
 				</div>
 			</div>
 			<form class="form-inline">

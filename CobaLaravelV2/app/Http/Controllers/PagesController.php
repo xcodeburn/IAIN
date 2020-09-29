@@ -10,8 +10,11 @@ class PagesController extends Controller
     	return view('home');
     }
 
+    public function data_penduduk(){
+        return view('data_penduduk', ['name' => "Halaman Data penduduk"]);
+    }
     public function about(){
-    	return view('about', ['name' => "tentang cinta"]);
+    	return view('about', ['name' => "Halaman Visi dan Misi"]);
     }
     public function welcome(){
     	return view('welcome');
