@@ -6,7 +6,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-10">
-			<h1>Tampilan Home</h1>
+			<h1>Tampilan Utama</h1>
 		</div>
 	</div>
 </div>
