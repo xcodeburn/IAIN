@@ -19,14 +19,14 @@
 					</tr>
 				</thead>
 				<tbody>
-					@foreach( $files as $files)
+					<!-- @foreach( $files as $files) -->
 					<tr>
-						<th scope="row">{{$loop->iteration}}</th>	
+						<!-- <th scope="row">{{$loop->iteration}}</th>	
 						<td>{{$files -> nama}}</td>	
 						<td>{{$files -> npm}}</td>	
 						<td>{{$files -> email}}</td>	
 						<td>{{$files -> jurusan}}</td>	
-						<td>
+						<td> -->
 							<a href="/students/{{$files->id}}/edit" class="badge badge-success">edit</a>
 							<a href="/mahasiswa" class="badge btn-danger">Delete</a>
 						</td>	
