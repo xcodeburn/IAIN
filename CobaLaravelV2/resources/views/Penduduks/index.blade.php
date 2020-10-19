@@ -19,19 +19,22 @@
 					</tr>
 				</thead>
 				<tbody>
-					<!-- @foreach( $files as $files) -->
+					@foreach ($Penduduks as $pdk)
 					<tr>
-						<!-- <th scope="row">{{$loop->iteration}}</th>	
-						<td>{{$files -> nama}}</td>	
-						<td>{{$files -> npm}}</td>	
-						<td>{{$files -> email}}</td>	
-						<td>{{$files -> jurusan}}</td>	
-						<td> -->
-							<a href="/students/{{$files->id}}/edit" class="badge badge-success">edit</a>
+						<th scope="row">{{$loop->iteration}}</th>	
+						<td>{{$pdk->id}}</td>	
+						<td>{{$pdk->NIK}}</td>
+						<td>{{$pdk->nama}}</td>	
+						<td>{{$pdk->tpt_lahir}}</td>	
+						<td>{{$pdk->tgl_lahir}}</td>	
+						<td>{{$pdk->pekerjaan}}</td>	
+						<td>
+							<a href="/students/edit" class="badge badge-success">edit</a>
 							<a href="/mahasiswa" class="badge btn-danger">Delete</a>
 						</td>	
 					</tr>
 					@endforeach
+					
 				</tbody>
 			</table>
 		</div>
