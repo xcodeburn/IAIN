@@ -27,6 +27,8 @@
 					<!-- <a class="nav-link active" href="{{ url ('/welcome')}}">Upload Berkas</a> -->
 					<a class="nav-link" href="{{ url ('/Penduduks')}}">Data Penduduk</a>
 					<a class="nav-link" href="{{ url ('/about')}}">Visi dan Misi</a>
+					<a class="nav-link" href="{{ url ('/video')}}">Tes video</a>
+					
 				</div>
 			</div>
 			<form class="form-inline">
