@@ -28,6 +28,10 @@ Route::get('/about', function () {
         "image" => "go.jpg"
     ]);
 });
+Route::get('/ctf', function(){
+    return view('ctf',[
+    "title" => "AKBAR_CTF"]);
+});
 
 
 
