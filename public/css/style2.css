@@ -1,0 +1,18 @@
+.dropdown2:hover>.dropdown-menu {
+  display: block;
+  background-color: #004129;
+  transition: 0.3s ease;
+}
+
+.dropdown2>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.dropdown2 .dropdown-item{
+    color:#fff;
+    text-transform: capitalize;
+}
+.dropdown2 .dropdown-item:hover{
+    background-color: #ecd31f;
+    color: black;
+}
