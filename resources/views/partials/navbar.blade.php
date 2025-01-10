@@ -4,7 +4,7 @@
             
             <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
             <ul class="navbar-nav ms-auto">   
-            <li class="nav-item">
+            <li class="nav-item mx-3">
                 <a class="nav-link {{$title == 'home' ? 'active' : ''}}" style="color: #ecd31f;" href="/">Home</a>
                 <!-- Jika tekan tombol home (title == home), maka kasih tanda -->
                 </li>
@@ -42,7 +42,7 @@
             </ul>
         </div>
        <!-- dropdown -->
-        <li class="nav-item mx-4">
+        <li class="nav-item mx-3">
             <a href="" class="nav-link">Pendidikan</a>
         </li>
         <li class="nav-item mx-3">
