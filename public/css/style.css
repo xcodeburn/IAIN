@@ -209,6 +209,43 @@ body {
     background-color: #004129;
     color: #ecd31f;
 }
+.iain-logo{
+  position: absolute;
+  top: 0;
+  margin-left: 150px;
+  z-index: 2;
+  max-width: 45px;
+}
+
+.slider-container{
+    width: 100%;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    width: 100%;
+    animation: slide 10s infinite;
+}
+.slider img{
+    width: 200vh;
+    height: 83vh;
+    object-fit: cover;
+    flex-shrink: 0
+}
+@keyframes slide{
+    0%{
+       transform: translateX(0); 
+    }
+    33%{
+       transform: translateX(-100%); 
+    }
+    66%{
+       transform: translateX(-200%); 
+    }
+    100%{
+       transform: translateX(0); 
+    }
+}
 
 hr {
     margin: 1rem 0;

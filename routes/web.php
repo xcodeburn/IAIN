@@ -23,7 +23,8 @@ Route::get('/about', function () {
     return view('about',[
         "name" => "IAIN",
         "email" => "iain.ac.id",
-        "title" => "about"
+        "title" => "about",
+        "image" => "iain-mod.png"
     ]); //tampilkan file yang ada dalam folder view dengan nama about, serta array assosiatif. 
     //key & value "" : untuk string 
 });
