@@ -19,7 +19,7 @@
             </div>
         </div>
 </nav>
-
+<img src="img/iain-mod.png" alt="" class="iain-logo">
 <nav class="navbar navbar-expand-lg">
     <div class="container" style="font-weight:500; text-transform:uppercase;">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-lg-0">
-        <li class="nav-item mx-3">
+        <li class="nav-item mx-2">
             <a href="" class="nav-link active">profil</a>
         </li>
        <!-- dropdown -->
@@ -42,19 +42,19 @@
             </ul>
         </div>
        <!-- dropdown -->
-        <li class="nav-item mx-3">
+        <li class="nav-item mx-2">
             <a href="" class="nav-link">Pendidikan</a>
         </li>
-        <li class="nav-item mx-3">
+        <li class="nav-item mx-2">
             <a href="" class="nav-link">Dakwah</a>
         </li>
-        <li class="nav-item mx-3">
+        <li class="nav-item mx-2">
             <a href="" class="nav-link">Kerjasama</a>
         </li>
-        <li class="nav-item mx-3">
+        <li class="nav-item mx-2">
             <a href="" class="nav-link">Layanan</a>
         </li>
-        <li class="nav-item mx-3">
+        <li class="nav-item mx-2">
             <a href="" class="nav-link">penjaminan Mutu</a>
         </li>
     </ul>
