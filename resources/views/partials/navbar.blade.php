@@ -5,14 +5,14 @@
             <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
             <ul class="navbar-nav ms-auto">   
             <li class="nav-item mx-3">
-                <a class="nav-link {{$title == 'home' ? 'active' : ''}}" style="color: #ecd31f;" href="/">Home</a>
+                <a class="nav-link {{$title == 'home' ? 'active' : ''}}" style="color: #ecd31f;" href="/">Sistem Informasi</a>
                 <!-- Jika tekan tombol home (title == home), maka kasih tanda -->
                 </li>
                 <li class="nav-item mx-3">
-                <a class="nav-link {{ $title == 'blog' ? 'active' : ''}}" style="color: #ecd31f;" href="/blog">Blog</a>
+                <a class="nav-link {{ $title == 'blog' ? 'active' : ''}}" style="color: #ecd31f;" href="/blog">PDDIKTI</a>
                 </li>
                 <li class="nav-item mx-3">
-                <a class="nav-link {{ $title == 'about' ? 'active' : ''}}" style="color: #ecd31f;" href="/about">About</a>
+                <a class="nav-link {{ $title == 'about' ? 'active' : ''}}" style="color: #ecd31f;" href="/about">Aduan & Saran</a>
                 </li>
             </ul>
             <i class="fa fa-search" style="font-size:20px"></i>   
@@ -27,7 +27,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-lg-0">
-        <li class="nav-item mx-2">
+        <li class="nav-item mx-3">
             <a href="" class="nav-link active">profil</a>
         </li>
        <!-- dropdown -->
@@ -42,19 +42,16 @@
             </ul>
         </div>
        <!-- dropdown -->
-        <li class="nav-item mx-2">
-            <a href="" class="nav-link">Pendidikan</a>
-        </li>
-        <li class="nav-item mx-2">
+        <li class="nav-item mx-3">
             <a href="" class="nav-link">Dakwah</a>
         </li>
-        <li class="nav-item mx-2">
+        <li class="nav-item mx-3">
             <a href="" class="nav-link">Kerjasama</a>
         </li>
-        <li class="nav-item mx-2">
+        <li class="nav-item mx-3">
             <a href="" class="nav-link">Layanan</a>
         </li>
-        <li class="nav-item mx-2">
+        <li class="nav-item mx-3">
             <a href="" class="nav-link">penjaminan Mutu</a>
         </li>
     </ul>
