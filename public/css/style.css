@@ -1,7 +1,7 @@
 :root,
 [data-bs-theme="light"] {
-    --bs-green-new:#004129;
-    --bs-yellow-new:#ecd31f;
+    --bs-green-new: #004129;
+    --bs-yellow-new: #ecd31f;
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -205,45 +205,46 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
+
 .bg-green {
     background-color: #004129;
     color: #ecd31f;
 }
-.iain-logo{
-  position: absolute;
-  top: 0;
-  margin-left: 150px;
-  z-index: 2;
-  max-width: 45px;
+.iain-logo {
+    position: absolute;
+    top: 0;
+    margin-left: 150px;
+    z-index: 2;
+    max-width: 45px;
 }
 
-.slider-container{
+.slider-container {
     width: 100%;
     overflow: hidden;
 }
-.slider{
+.slider {
     display: flex;
     width: 100%;
     animation: slide 10s infinite;
 }
-.slider img{
+.slider img {
     width: 200vh;
     height: 83vh;
     object-fit: cover;
-    flex-shrink: 0
+    flex-shrink: 0;
 }
-@keyframes slide{
-    0%{
-       transform: translateX(0); 
+@keyframes slide {
+    0% {
+        transform: translateX(0);
     }
-    33%{
-       transform: translateX(-100%); 
+    33% {
+        transform: translateX(-100%);
     }
-    66%{
-       transform: translateX(-200%); 
+    66% {
+        transform: translateX(-200%);
     }
-    100%{
-       transform: translateX(0); 
+    100% {
+        transform: translateX(0);
     }
 }
 

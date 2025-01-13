@@ -12,6 +12,7 @@
 <body>
 @include('partials.navbar')
 @yield('container') <!-- ini nama yang akan diisi pada menu-menu nav-->
+@include('partials.footer')
 <script src="{{asset('js/script.js')}}"></script>
 </body>
 </html>

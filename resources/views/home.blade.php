@@ -8,5 +8,5 @@
             <img src="/img/3.jpg" alt="img3">
         </div>
     </div>
-</div>
+</div>    
 @endsection
