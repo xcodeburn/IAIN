@@ -28,12 +28,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-lg-0">
         <li class="nav-item mx-3">
+            <a href="" class="nav-link active">home</a>
+        </li>
+        <li class="nav-item mx-3">
             <a href="" class="nav-link active">profil</a>
         </li>
        <!-- dropdown -->
        <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
             <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
-                Pendidikan
+                fakultas
             </button>
             <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
                 <li><a class="dropdown-item my-3" href="#">Action</a></li>
@@ -43,16 +46,19 @@
         </div>
        <!-- dropdown -->
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">Dakwah</a>
+            <a href="" class="nav-link">unit</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">Kerjasama</a>
+            <a href="" class="nav-link">akademik</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">Layanan</a>
+            <a href="" class="nav-link">penerimaan</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">penjaminan Mutu</a>
+            <a href="" class="nav-link">mahasiswa</a>
+        </li>
+        <li class="nav-item mx-3">
+            <a href="" class="nav-link">penerimaan</a>
         </li>
     </ul>
     </div>
