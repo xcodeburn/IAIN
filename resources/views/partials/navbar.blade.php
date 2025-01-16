@@ -19,7 +19,7 @@
             </div>
         </div>
 </nav>
-<img src="img/iain-mod.png" alt="" class="iain-logo">
+<img src="img/IAIN.png" alt="" class="iain-logo">
 <nav class="navbar navbar-expand-lg">
     <div class="container" style="font-weight:500; text-transform:uppercase;">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
