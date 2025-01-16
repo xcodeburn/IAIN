@@ -32,6 +32,12 @@
   border-right: solid 1px whitesmoke;
   padding-bottom: 120px;
 }
+.iain-logo-footer {
+    /* top: 9px; */
+    margin-right: 20px;
+    height: 140px;
+    width: 115px;
+}
 .sosial{
   margin-left: 2em;
 }
@@ -41,7 +47,10 @@
 .kakibar{
   border-bottom: 1px solid #555;
   padding-bottom: 30px;
-  /* margin-left: 20px; */
+}
+.bar2{
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .follow-section {
   padding: 30px 0;

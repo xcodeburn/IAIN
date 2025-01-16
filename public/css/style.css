@@ -212,11 +212,12 @@ body {
 }
 .iain-logo {
     position: absolute;
-    top: 0;
-    margin-left: 150px;
+    top: 9px;
+    margin-left: 140px;
     z-index: 2;
-    max-width: 45px;
+    max-width: 80px;
 }
+
 
 .slider-container {
     width: 100%;
@@ -225,7 +226,7 @@ body {
 .slider {
     display: flex;
     width: 100%;
-    animation: slide 10s infinite;
+    animation: slide 25s infinite;
 }
 .slider img {
     width: 200vh;

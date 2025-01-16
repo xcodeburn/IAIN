@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
+use App\Models\post;/* menghubungkam ke file models/post */
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/* route dengan menggunakan clausur */
 Route::get('/', function () {
     // return view('welcome'); //tampilkan file yang ada dalam folder view dengan nama welcome 
     return view('home', [
@@ -28,55 +30,9 @@ Route::get('/about', function () {
     ]); //tampilkan file yang ada dalam folder view dengan nama about, serta array assosiatif. 
     //key & value "" : untuk string 
 });
-Route::get('/blog', function () { 
-    $blog = 
-[
-    [
-        "title" => "post pertama",
-        "slug" => "judul+post+pertama",
-        "author" => "Fredi",
-        "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sit eius, nam earum tenetur tempore obcaecati iste accusantium. Est unde deserunt alias delectus molestiae nobis dolorum, et doloribus blanditiis harum?"
-        ],
-    [
-        "title" => "post kedua",
-        "slug" => "judul+post+kedua",
-        "author" => "Fredi",
-        "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sit eius, nam earum tenetur tempore obcaecati iste accusantium. Est unde deserunt alias delectus molestiae nobis dolorum, et doloribus blanditiis harum?"
-        ]
-];
-    return view('blog',[
-        "title" => "blog",
-        "posts" => $blog
-    ]); //tampilkan file yang ada dalam folder view dengan nama blog 
-});
 
-// single post
-Route::get('blog/{slug}', function($slug){
-    $blog = 
-[
-    [
-        "title" => "post pertama",
-        "slug" => "judul+post+pertama",
-        "author" => "Fredi",
-        "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sit eius, nam earum tenetur tempore obcaecati iste accusantium. Est unde deserunt alias delectus molestiae nobis dolorum, et doloribus blanditiis harum?"
-        ],
-    [
-        "title" => "post kedua",
-        "slug" => "judul+post+kedua",
-        "author" => "Fredi",
-        "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sit eius, nam earum tenetur tempore obcaecati iste accusantium. Est unde deserunt alias delectus molestiae nobis dolorum, et doloribus blanditiis harum?"
-        ]
-];
-$new_post=[];
-foreach ($blog as $post) {
-    if ($post["slug"]=== $slug){
-        $new_post = $post;
-    }
-}
-  return view('post',[
-    "title" => "single post",
-    "post" => $new_post
-  ]);  
-}); /* wildcard untuk mengambil isi apapun dalam slug */
+/* route dengan menggunakan controller / tanpa clausur*/
+Route::get('/blog', [PostController::class, 'index']); /* hubungkan dengan controller */
+Route::get('blog/{slug}',[PostController::class, 'show']); /* wildcard untuk mengambil isi apapun dalam slug */
 
 
