@@ -1,6 +1,10 @@
+:root{
+  --main-color : #004129;
+  --secondary-color : #ecd31f;
+}
 .dropdown2:hover>.dropdown-menu {
   display: block;
-  background-color: #004129;
+  background-color: var(--main-color);
   transition: 0.3s ease;
 }
 
@@ -13,7 +17,7 @@
     text-transform: capitalize;
 }
 .dropdown2 .dropdown-item:hover{
-    background-color: #ecd31f;
+    background-color: var(--secondary-color);
     color: black;
 }
 .contact-section {
@@ -71,5 +75,23 @@
 .social-icons a{
   text-decoration: none;
   margin: 0 10px;
+}
+ /* berita kampus */
+.info-header{
+  text-align: center;
+  color: var(--main-color);
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.card-title{
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-text{
+  font-size: 14px;
+}
+.card-image{
+  height: 180px;
+  object-fit: cover;
 }
 
