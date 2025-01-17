@@ -1,4 +1,4 @@
-@extends('layout.main') <!-- halaman ini menggunakan layout ini-->
+@extends('layout.main2') <!-- halaman ini menggunakan layout ini-->
 @section('container') <!-- ini yang akan dipanggil pada main.blade-->
 @foreach ($posts as $post) <!-- looping ini array -->
 <div class="container">
