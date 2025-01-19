@@ -1,5 +1,11 @@
 <nav class="navbar navbar-expand-lg bg-green">
         <div class="container" style="font-weight:500;">
+            <div class="d-flex align-items-center">
+                <a href="" class="navbar-brand d-flex align-items-center" style="color:antiquewhite;font-size:25px;font-family: Times New Roman, Times, serif;margin-left: 120px;">
+                    <span class="d-block fw-bold">Institut Agama Islam Rokan</span><br>
+                    {{-- <span class="d-block fw-bold"></span> --}}
+                </a>
+            </div>
             <!-- <a class="navbar-brand" style="color: #ecd31f;" href="#">IAIN</a> -->
             
             <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
@@ -21,6 +27,7 @@
 </nav>
 <img src="img/IAIN.png" alt="" class="iain-logo">
 <nav class="navbar navbar-expand-lg">
+    
     <div class="container" style="font-weight:500; text-transform:uppercase;">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -58,7 +65,7 @@
             <a href="" class="nav-link">mahasiswa</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">penerimaan</a>
+            <a href="" class="nav-link">Dokumen</a>
         </li>
     </ul>
     </div>

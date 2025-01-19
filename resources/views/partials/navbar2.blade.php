@@ -6,12 +6,12 @@
             
             <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
                 <div class="d-flex align-items-center">
-                    <a href="" class="navbar-brand d-flex align-items-center" style='color:white;'>
+                    <a href="" class="navbar-brand d-flex align-items-center" style='color:white;font-family:Arial, Helvetica, sans-serif'>
                         <img src="img/IAIN.png" alt="" class="me-2" width="50" height="70">
                         <div>
-                            <span class="d-block fw-bold">INSTITUT</span>
-                            <span class="d-block fw-bold">AGAMA ISLAM</span>
-                            <span class="d-block fw-bold">ROKAN</span>
+                            <span class="d-block fw-bold">Institut</span>
+                            <span class="d-block fw-bold">Agama Islam Rokan</span>
+                            {{-- <span class="d-block fw-bold">Rokan</span> --}}
                         </div>
                     </a>
                 </div>

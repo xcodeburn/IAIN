@@ -23,18 +23,17 @@
 .contact-section {
   display: flex;
   background-color: #004129;
-  padding: 50px;
+  padding: 25px;
   color: whitesmoke;
   font-weight: bold;
   text-transform: uppercase;
 }
 .contact-section h1 {
     font-size: 26px;
-    margin-bottom: 30px;
 }
 .alamat{
   border-right: solid 1px whitesmoke;
-  padding-bottom: 120px;
+  width: 406px;
 }
 .iain-logo-footer {
     /* top: 9px; */
@@ -46,7 +45,12 @@
   margin-left: 2em;
 }
 .contact-info {
-    font-size: 16px;
+  font-family: serif;
+    border-right: solid 1px whitesmoke;
+    font-size: 20px;
+    text-transform: capitalize;
+    /* padding-right: 40px; */
+    /* width: 500px; */
 }
 .kakibar{
   border-bottom: 1px solid #555;
@@ -57,7 +61,7 @@
   margin-right: 60px;
 }
 .follow-section {
-  padding: 30px 0;
+  border-bottom: 1px solid #555;
   /* margin-left: 40px; */
 }
 .follow-text{
