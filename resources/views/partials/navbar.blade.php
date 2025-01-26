@@ -35,10 +35,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-lg-0">
         <li class="nav-item mx-3">
-            <a href="" class="nav-link active">home</a>
+            <a href="/" class="nav-link active">home</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="" class="nav-link active">profil</a>
+            <a href="/no-page" class="nav-link active">profil</a>
         </li>
        <!-- dropdown -->
        <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
@@ -46,26 +46,26 @@
                 fakultas
             </button>
             <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item my-3" href="#">Action</a></li>
-                <li><a class="dropdown-item my-3" href="#">Another action</a></li>
-                <li><a class="dropdown-item my-3" href="#">Something else here</a></li>
+                <li><a class="dropdown-item my-3" href="#">Fakultas tarbiah dan keguruan (FTK)</a></li>
+                <li><a class="dropdown-item my-3" href="#">fakultas ekonomi dan bisnis islam (FEBI)</a></li>
+                {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
             </ul>
         </div>
        <!-- dropdown -->
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">unit</a>
+            <a href="/no-page" class="nav-link">unit</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">akademik</a>
+            <a href="/" class="nav-link">akademik</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">penerimaan</a>
+            <a href="/no-page" class="nav-link">penerimaan</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">mahasiswa</a>
+            <a href="/no-page" class="nav-link">mahasiswa</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="" class="nav-link">Dokumen</a>
+            <a href="/no-page" class="nav-link">Dokumen</a>
         </li>
     </ul>
     </div>
