@@ -23,12 +23,17 @@ Route::get('/', function () {
 });
 Route::get('/about', function () {
     return view('about',[
-        "name" => "IAIN",
-        "email" => "iain.ac.id",
+        "name" => "IAIR",
+        "email" => "iair.ac.id",
         "title" => "about",
         "image" => "iain-mod.png"
     ]); //tampilkan file yang ada dalam folder view dengan nama about, serta array assosiatif. 
     //key & value "" : untuk string 
+});
+Route::get('/no-page', function(){
+    return view('no-page',[
+        "title" => "no-page"
+    ]);
 });
 
 /* route dengan menggunakan controller / tanpa clausur*/

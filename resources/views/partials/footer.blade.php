@@ -49,7 +49,7 @@
                             <td>+62 813 9617 0447</td>
                         </tr>
                         <tr>
-                            <td><i class="fa fa-phone" style="font-size:25px"></i></td>
+                              <td><i class="fa fa-phone" style="font-size:25px"></i></td>
                             <td>+62 853 6324 7004</td>
                         </tr>
                         <tr>
