@@ -25,7 +25,7 @@
             </div>
         </div>
 </nav>
-<img src="img/IAIN.png" alt="" class="iain-logo">
+<img src="{{ asset('img/IAIN.png') }}" alt="" class="iain-logo">
 <nav class="navbar navbar-expand-lg">
     
     <div class="container" style="font-weight:500; text-transform:uppercase;">

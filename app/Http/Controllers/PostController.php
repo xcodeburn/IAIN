@@ -13,10 +13,10 @@ class PostController extends Controller
         "posts" => post::all()
     ]); //tampilkan file yang ada dalam folder view dengan nama blog 
     }
-    public function show($slug){
+    public function show(post $post){ /* menampilkan single post */
         return view('post',[
         "title" => "single post",
-        "post" => post::find($slug)
+        "post" => $post
     ]); 
     }
 

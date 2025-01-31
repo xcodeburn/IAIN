@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
-use App\Models\post;/* menghubungkam ke file models/post */
+use App\Models\post;/* menghubungkam ke file models class post */
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +38,6 @@ Route::get('/no-page', function(){
 
 /* route dengan menggunakan controller / tanpa clausur*/
 Route::get('/blog', [PostController::class, 'index']); /* hubungkan dengan controller */
-Route::get('blog/{slug}',[PostController::class, 'show']); /* wildcard untuk mengambil isi apapun dalam slug */
+Route::get('blog/{post:slug}',[PostController::class, 'show']); /* wildcard untuk mengambil isi apapun dalam slug */
 
 

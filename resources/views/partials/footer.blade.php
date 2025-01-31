@@ -2,7 +2,7 @@
 <div class="contact-section">
     <div class="container-fluid">
         <div class="row">
-            <img src="img/IAIN.png" alt="IAIR" class="iain-logo-footer">
+            <img src="{{ asset('img/IAIN.png') }}" alt="IAIR" class="iain-logo-footer">
             <div class="alamat">
                 <h1>Institut Agama Islam<br> ROKAN</h1>
             </div>
@@ -19,9 +19,9 @@
                 <div class="d-flex align-items-center">
                     <p class="follow-text mb-0">FOLLOW US</p>
                     <div class="social-icons d-flex">
-                        <a href="" target="_blank"><img src="img/yt.png" alt="youtube"></a>
-                        <a href="" target="_blank"><img src="img/ins.png" alt="instagram"></a>
-                        <a href="" target="_blank"><img src="img/yt.png" alt="youtube"></a>
+                        <a href="" target="_blank"><img src="{{ asset('img/yt.png') }}" alt="youtube"></a>
+                        <a href="" target="_blank"><img src="{{ asset('img/ins.png') }}" alt="instagram"></a>
+                        <a href="" target="_blank"><img src="{{ asset('img/yt.png') }}" alt="youtube"></a>
                     </div>
                 </div>
             </div>
