@@ -1,5 +1,4 @@
 <nav class="navbar navbar-expand-lg bg-green">
-        
     <div class="container" style="font-weight:500;">
             
             <!-- <a class="navbar-brand" style="color: #ecd31f;" href="#">IAIN</a> -->
@@ -17,7 +16,6 @@
                 </div>
                 
             <ul class="navbar-nav ms-auto">
-                   
             <li class="nav-item mx-3">
                 <a class="nav-link {{$title == 'home' ? 'active' : ''}}" style="color: #ecd31f;" href="/">Sistem Informasi</a>
                 <!-- Jika tekan tombol home (title == home), maka kasih tanda -->
@@ -34,15 +32,15 @@
         </div>
 </nav>
 {{-- <img src="img/IAIN.png" alt="" class="iain-logo"> --}}
-<nav class="navbar navbar-expand-lg">
-    <div class="container" style="font-weight:500; text-transform:uppercase;">
+<nav class="navbar navbar-expand-lg" style="background-color: #E7E7E7">
+    <div class="container hv" style="font-weight:500; text-transform:uppercase;">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-lg-0">
         <li class="nav-item mx-3">
-            <a href="/" class="nav-link active">home</a>
+            <a href="/" class="nav-link active">homie</a>
         </li>
         <li class="nav-item mx-3">
             <a href="/no-page" class="nav-link active">profil</a>

@@ -1,5 +1,5 @@
 @extends('layout.main2') <!-- halaman ini menggunakan layout ini-->
-@section('container') <!-- ini yang akan dipanggil pada main.blade-->
+@section('container2') <!-- ini yang akan dipanggil pada main.blade-->
 <h3 class="mb-4">Berita Kampus</h3>
 <div class="container">
     <div class="row">

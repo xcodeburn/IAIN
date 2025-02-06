@@ -2,6 +2,12 @@
   --main-color : #004129;
   --secondary-color : #ecd31f;
 }
+.hv{
+  color: red;
+}
+.hv:hover{
+  color: #ecd31f;
+}
 .dropdown2:hover>.dropdown-menu {
   display: block;
   background-color: var(--main-color);
@@ -106,3 +112,12 @@
   background-repeat: no-repeat;
 }
 
+/* gambar pada header */
+.img-header{
+  height: 500px;
+}
+.img-header img{
+  height: 400px;
+  width: 100%;
+  margin-bottom: 50px;
+}
