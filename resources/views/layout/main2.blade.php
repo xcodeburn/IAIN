@@ -11,13 +11,6 @@
 </head>
 <body>
 @include('partials.navbar2')
-<div class="container-fluid">
-    <div class="slider-container">
-        <div class="img-header">
-            <img src="/img/1.jpg" alt="img1">
-        </div>
-    </div>
-</div>
 @yield('container2') <!-- ini nama yang akan diisi pada menu-menu nav-->
 @include('partials.footer')
 <script src="{{asset('js/script.js')}}"></script>

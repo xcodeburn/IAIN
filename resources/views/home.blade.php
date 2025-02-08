@@ -1,13 +1,42 @@
 @extends('layout.main') <!-- halaman ini menggunakan layout ini-->
+<style>
+  .carousel-inner img{
+    height: 520px;
+    width: 100%;
+  }
+</style>
 @section('container') <!-- ini yang akan dipanggil pada main.blade-->
 <div class="container-fluid">
-    <div class="slider-container">
-        <div class="slider">
-            <img src="/img/1.jpg" alt="img1">
-            <img src="/img/2.jpg" alt="img2">
-            <img src="/img/3.jpg" alt="img3">
-        </div>
+    {{-- image slider --}}
+  
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000"> <!-- 3000 = 3 detik -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/img/1.jpg" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="/img/2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+{{-- image slider --}}
 </div>
 <div class="container">
     <div class="info-header">

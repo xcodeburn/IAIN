@@ -1,15 +1,28 @@
 <?php
 
 namespace App\Exceptions;
-
+use Illuminate\Http\Request;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
 
 class Handler extends ExceptionHandler
 {
+    public function render($request, Throwable $exception)
+    {
+        // Cek apakah exception yang terjadi adalah NotFoundHttpException (404)
+        if ($exception instanceof NotFoundHttpException) {
+            // Redirect ke halaman 'no-page' jika ada error 404
+            return redirect()->route('no-page'); // Gantilah 'no-page' dengan nama route yang sudah didefinisikan
+        }
+        
+        // Kembalikan exception lain menggunakan penanganan default
+        return parent::render($request, $exception);
+    }
     /**
      * A list of exception types with their corresponding custom log levels.
      *
+     * 
      * @var array<class-string<\Throwable>, \Psr\Log\LogLevel::*>
      */
     protected $levels = [
