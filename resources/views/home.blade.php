@@ -7,8 +7,8 @@
 </style>
 @section('container') <!-- ini yang akan dipanggil pada main.blade-->
 <div class="container-fluid">
-    {{-- image slider --}}
-  
+
+  {{-- image slider --}}
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000"> <!-- 3000 = 3 detik -->
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -35,7 +35,6 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
 {{-- image slider --}}
 </div>
 <div class="container">
