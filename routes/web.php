@@ -34,7 +34,7 @@ Route::get('/no-page', function(){
     return view('no-page',[
         "title" => "no-page"
     ]);
-});
+})->name('no-page');
 
 /* route dengan menggunakan controller / tanpa clausur*/
 Route::get('/blog', [PostController::class, 'index']); /* hubungkan dengan controller */

@@ -39,7 +39,7 @@
 }
 .alamat{
   border-right: solid 1px whitesmoke;
-  width: 406px;
+  width: 408px;
 }
 .iain-logo-footer {
     /* top: 9px; */
@@ -112,12 +112,48 @@
   background-repeat: no-repeat;
 }
 
+.bg-green {
+    background-color: #004129;
+    color: #ecd31f;
+}
+.iain-logo {
+    position: absolute;
+    top: 9px;
+    margin-left: 140px;
+    z-index: 2;
+    max-width: 80px;
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+    width: 100%;
+    animation: slide 25s infinite;
+}
+.slider img {
+    width: 200vh;
+    height: 83vh;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
 /* gambar pada header */
 .img-header{
-  height: 500px;
+  height: 486px;
 }
 .img-header img{
-  height: 400px;
+  height: 300px;
   width: 100%;
   margin-bottom: 50px;
 }
+.carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0.5); /* Warna gelap dengan transparansi */
+}
+
+.carousel-indicators .active {
+  background-color: rgba(0, 0, 0, 0.9); /* Warna lebih gelap untuk indikator aktif */
+}
+

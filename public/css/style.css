@@ -206,34 +206,7 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-.bg-green {
-    background-color: #004129;
-    color: #ecd31f;
-}
-.iain-logo {
-    position: absolute;
-    top: 9px;
-    margin-left: 140px;
-    z-index: 2;
-    max-width: 80px;
-}
 
-
-.slider-container {
-    width: 100%;
-    overflow: hidden;
-}
-.slider {
-    display: flex;
-    width: 100%;
-    animation: slide 25s infinite;
-}
-.slider img {
-    width: 200vh;
-    height: 83vh;
-    object-fit: cover;
-    flex-shrink: 0;
-}
 @keyframes slide {
     0% {
         transform: translateX(0);
@@ -6084,7 +6057,7 @@ fieldset:disabled .btn {
     box-sizing: content-box;
     flex: 0 1 auto;
     width: 30px;
-    height: 3px;
+    height: 20px;
     padding: 0;
     margin-right: 3px;
     margin-left: 3px;
