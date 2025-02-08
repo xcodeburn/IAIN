@@ -46,8 +46,8 @@
                 fakultas
             </button>
             <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item my-3" href="#">Fakultas tarbiah dan keguruan (FTK)</a></li>
-                <li><a class="dropdown-item my-3" href="#">fakultas ekonomi dan bisnis islam (FEBI)</a></li>
+                <li><a class="dropdown-item my-3" href="">Fakultas tarbiah dan keguruan (FTK)</a></li>
+                <li><a class="dropdown-item my-3" href="">fakultas ekonomi dan bisnis islam (FEBI)</a></li>
                 {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
             </ul>
         </div>
@@ -56,17 +56,35 @@
             <a href="/no-page" class="nav-link">unit</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="/" class="nav-link">akademik</a>
+            <a href="/no-page" class="nav-link">Akademik</a>
         </li>
+        <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
+            <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
+                Mahasiswa
+            </button>
+            <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item my-3" href="">PMB Mandiri</a></li>
+                <li><a class="dropdown-item my-3" href="">Registrasi Mahasiswa Baru</a></li>
+                <li><a class="dropdown-item my-3" href="">Beasiswa</a></li>
+                {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+            </ul>
+        </div>
         <li class="nav-item mx-3">
             <a href="/no-page" class="nav-link">penerimaan</a>
         </li>
-        <li class="nav-item mx-3">
-            <a href="/no-page" class="nav-link">mahasiswa</a>
-        </li>
-        <li class="nav-item mx-3">
-            <a href="/no-page" class="nav-link">Dokumen</a>
-        </li>
+        <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
+            <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
+                Document
+            </button>
+            <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item my-3" href="#">Repository</a></li>
+                <li><a class="dropdown-item my-3" href="#">E-Theses</a></li>
+                <li><a class="dropdown-item my-3" href="#">E-Resourses</a></li>
+                <li><a class="dropdown-item my-3" href="#">OPAC</a></li>
+                <li><a class="dropdown-item my-3" href="#">E-Jornal</a></li>
+                {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+            </ul>
+        </div>
     </ul>
     </div>
 </nav>
