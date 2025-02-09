@@ -80,4 +80,16 @@
         </div>
     </div>
 </div>
+{{-- kerjasama --}}
+<div class="kerjasama" style="">Kerjasama</div>
+    <div class="kerja">
+      <h2>kerjasama</h2>
+        <img src="/img/baznas.png" alt="Logo 1" class="logo">
+        <img src="/img/bsi.svg" alt="Logo 2" class="logo">
+        <img src="/img/djp.svg.png" alt="Logo 3" class="logo">
+        <img src="/img/rohil.png" alt="Logo 4" class="logo">
+        <img src="/img/uin.png" alt="Logo 5" class="logo">
+        <img src="/img/mara.png" alt="Logo 6" class="logo" style="height:90px">
+        <img src="/img/mara.svg" alt="Logo 7" class="logo">
+    </div>
 @endsection
