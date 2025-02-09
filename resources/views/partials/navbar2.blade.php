@@ -24,7 +24,7 @@
                 <a class="nav-link {{ $title == 'blog' ? 'active' : ''}}" style="color: #ecd31f;" href="/blog">PDDIKTI</a>
                 </li>
                 <li class="nav-item mx-3">
-                <a class="nav-link {{ $title == 'about' ? 'active' : ''}}" style="color: #ecd31f;" href="/about">Aduan & Saran</a>
+                <a class="nav-link {{ $title == 'about' ? 'active' : ''}}" style="color: #ecd31f;" href="/no-page">Aduan & Saran</a>
                 </li>
             </ul>
             <i class="fa fa-search" style="font-size:20px"></i>   
@@ -43,7 +43,7 @@
             <a href="/" class="nav-link active">home</a>
         </li>
         <li class="nav-item mx-3">
-            <a href="/no-page" class="nav-link active">profil</a>
+            <a href="/about" class="nav-link active">profil</a>
         </li>
        <!-- dropdown -->
        <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">

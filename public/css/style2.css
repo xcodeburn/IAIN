@@ -1,45 +1,45 @@
-:root{
-  --main-color : #004129;
-  --secondary-color : #ecd31f;
+:root {
+    --main-color: #004129;
+    --secondary-color: #ecd31f;
 }
-.hv{
-  color: red;
+.hv {
+    color: red;
 }
-.hv:hover{
-  color: #ecd31f;
+.hv:hover {
+    color: #ecd31f;
 }
-.dropdown2:hover>.dropdown-menu {
-  display: block;
-  background-color: var(--main-color);
-  transition: 0.3s ease;
+.dropdown2:hover > .dropdown-menu {
+    display: block;
+    background-color: var(--main-color);
+    transition: 0.3s ease;
 }
 
-.dropdown2>.dropdown-toggle:active {
-  /*Without this, clicking will make it sticky*/
+.dropdown2 > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
-.dropdown2 .dropdown-item{
-    color:#fff;
+.dropdown2 .dropdown-item {
+    color: #fff;
     text-transform: capitalize;
 }
-.dropdown2 .dropdown-item:hover{
+.dropdown2 .dropdown-item:hover {
     background-color: var(--secondary-color);
     color: black;
 }
 .contact-section {
-  display: flex;
-  background-color: #004129;
-  padding: 25px;
-  color: whitesmoke;
-  font-weight: bold;
-  text-transform: uppercase;
+    display: flex;
+    background-color: #004129;
+    padding: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .contact-section h1 {
     font-size: 26px;
 }
-.alamat{
-  border-right: solid 1px whitesmoke;
-  width: 408px;
+.alamat {
+    border-right: solid 1px whitesmoke;
+    width: 408px;
 }
 .iain-logo-footer {
     /* top: 9px; */
@@ -47,69 +47,71 @@
     height: 140px;
     width: 115px;
 }
-.sosial{
-  margin-left: 2em;
+.sosial {
+    margin-left: 2em;
 }
 .contact-info {
-  font-family: serif;
+    font-family: serif;
     border-right: solid 1px whitesmoke;
-    font-size: 20px;
+    font-size: large;
+    margin-right: 10px;
     text-transform: capitalize;
-    /* padding-right: 40px; */
-    /* width: 500px; */
 }
-.kakibar{
-  border-bottom: 1px solid #555;
-  padding-bottom: 30px;
+.contact-info td {
+    padding: 2px 10px;
 }
-.bar2{
-  margin-left: 60px;
-  margin-right: 60px;
+.kakibar {
+    border-bottom: 1px solid #555;
+    padding-bottom: 30px;
+}
+.bar2 {
+    margin-left: 60px;
+    margin-right: 60px;
 }
 .follow-section {
-  border-bottom: 1px solid #555;
-  /* margin-left: 40px; */
+    border-bottom: 1px solid #555;
+    /* margin-left: 40px; */
 }
-.follow-text{
-  font-weight: bold;
-  margin-right: 30px;
+.follow-text {
+    font-weight: bold;
+    margin-right: 30px;
 }
 .social-icons img {
-  width: 60px;
-  height: 60px;
-  margin: 30px;
-  border-radius: 50%;
-  background-color: #ffd700;
-  padding: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    border-radius: 50%;
+    background-color: #ffd700;
+    padding: 10px;
 }
-.social-icons a{
-  text-decoration: none;
-  margin: 0 10px;
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
 }
- /* berita kampus */
-.info-header{
-  text-align: center;
-  color: var(--main-color);
-  margin-top: 100px;
-  margin-bottom: 40px;
+/* berita kampus */
+.info-header {
+    text-align: center;
+    color: var(--main-color);
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
-.card-title{
-  font-size: 18px;
-  font-weight: bold;
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
 }
-.card-text{
-  font-size: 14px;
+.card-text {
+    font-size: 14px;
 }
-.card-image{
-  height: 180px;
-  object-fit: cover;
+.card-image {
+    height: 180px;
+    object-fit: cover;
 }
-.no-page{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.no-page {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bg-green {
@@ -141,19 +143,127 @@
 }
 
 /* gambar pada header */
-.img-header{
-  height: 486px;
+.img-header {
+    height: 486px;
 }
-.img-header img{
-  height: 300px;
-  width: 100%;
-  margin-bottom: 50px;
+.img-header img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 .carousel-indicators li {
-  background-color: rgba(0, 0, 0, 0.5); /* Warna gelap dengan transparansi */
+    background-color: rgba(0, 0, 0, 0.5); /* Warna gelap dengan transparansi */
 }
 
 .carousel-indicators .active {
-  background-color: rgba(0, 0, 0, 0.9); /* Warna lebih gelap untuk indikator aktif */
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.9
+    ); /* Warna lebih gelap untuk indikator aktif */
+}
+/* profil visi dan misi */
+.container .about {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Bagian konten (sejarah dan gambar) */
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
+/* Bagian kiri untuk sejarah */
+.left {
+    width: 48%;
+}
+
+.left h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+}
+.left h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 4px;
+    background-color: #ecd31f; /* Warna pertama */
+}
+.left h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 4px;
+    background-color: #004129; /* Warna kedua */
+}
+
+/* Bagian kanan untuk gambar */
+.right {
+    width: 48%;
+}
+
+.school-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Bagian visi dan misi */
+/* .vandm{
+  width: 100%;
+} */
+.vision-mission {
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0 50px; */
+    text-align: center;
+    background-color: #f6f6f6;
+    color: #2b2b2b;
+    padding: 30px;
+    border-radius: 8px;
+}
+.misi {
+    text-align: left;
+}
+
+.vision-mission h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.vision-mission p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* kerjasama */
+.kerja {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom */
+    gap: 20px; /* Jarak antar elemen */
+    max-width: 900px; /* Membatasi lebar grid */
+    margin: 0 auto;
+}
+.kerjasama {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100%; /* Ukuran logo mengikuti lebar grid item */
+    max-width: 150px; /* Batas maksimum lebar logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

@@ -34,12 +34,8 @@
             <p>
                 Jl. Lintas riau - sumut, km. 6 bagan batu<br>
                 bahtera makmur, kec. bagan sinembah,<br>
-                kab. rokan hilir, prov. riau<br><br>
-                <table style="text-transform: capitalize;color:white" >
-                    <tr>
-                        <th>Nama</th>
-                        <th>Nomor</th> <!-- Memperbaiki penutupan tag <th> -->
-                    </tr>
+                kab. rokan hilir, prov. riau<br><br></p>
+                <table style="color:white" >
                     <tr>
                         <td><i class="fa fa-phone" style="font-size:25px"></i></td>
                         <td>+62 822 8839 4221</td>
