@@ -35,34 +35,41 @@
                 Jl. Lintas riau - sumut, km. 6 bagan batu<br>
                 bahtera makmur, kec. bagan sinembah,<br>
                 kab. rokan hilir, prov. riau<br><br></p>
-                <table style="color:white" >
+                <table style="color:white;" >
                     <tr>
                         <td><i class="fa fa-phone" style="font-size:25px"></i></td>
                         <td>+62 822 8839 4221</td>
+                        <td>Dr. ahmad hafizon, M.Pd</td>
                     </tr>
                     <tr>
                         <td><i class="fa fa-phone" style="font-size:25px"></i></td>
                         <td>+62 813 7183 8763</td>
+                        <td>fery sudarmanto, SE., S.Pd.I</td>
                     </tr>
                     <tr>
                         <td><i class="fa fa-phone" style="font-size:25px"></i></td>
                         <td>+62 813 9617 0447</td>
+                        <td>isro sidri ridho hasibuan, S.Pd.I</td>
                     </tr>
                     <tr>
                         <td><i class="fa fa-phone" style="font-size:25px"></i></td>
                         <td>+62 853 6324 7004</td>
+                        <td>ilham hasibuan, S.Pd</td>
                     </tr>
                     <tr>
                         <td><i class="fa fa-phone" style="font-size:25px"></i></td>
                         <td>+62 853 5591 6292</td>
+                        <td>ahmad arifin, SE</td>
                     </tr>
                     <tr>
                         <td><i class="fa fa-phone" style="font-size:25px"></i></td>
                         <td>+62 822 6847 3172</td>
+                        <td>mar'i roisuddin, S.Pd</td>
                     </tr>
                     <tr>
                         <td><i class="fa fa-phone" style="font-size:25px"></i></td>
                         <td>+62 823 7379 4265</td>
+                        <td>novi arianti, S.IP</td>
                     </tr>
                 </table>
             </p>
