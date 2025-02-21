@@ -111,7 +111,7 @@
     text-decoration: none;
     margin: 0 10px;
 }
-*/
+
 /* berita kampus */
 .info-header {
     text-align: center;
@@ -143,12 +143,23 @@
     background-color: #004129;
     color: #ecd31f;
 }
+.bg-green span{
+    margin-left: 120px;
+}
 .iain-logo {
     position: absolute;
     top: 9px;
     margin-left: 140px;
     z-index: 2;
     max-width: 80px;
+}
+@media (max-width: 768px) { /* Untuk layar lebih kecil dari 768px */
+    .iain-logo {
+        display: none;
+    }
+    .bg-green{
+        margin: 0;
+    }
 }
 
 .slider-container {

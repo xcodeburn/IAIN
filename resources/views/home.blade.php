@@ -40,7 +40,7 @@
 </div>
 <div class="container">
     <div class="info-header" style="text-align: center; padding-top:100px">
-        <h1 style="text-transform: uppercase;color: var(--main-color);">Info Kampus Kita</h1>
+        <h1 style="text-transform: uppercase;color: var(--main-color);">Info Kampus</h1>
         <p> Updaate selalu berita-berita yang berhubungan dengan kegiatan kampus</p>
     </div>
     {{-- berita kampaus --}}
