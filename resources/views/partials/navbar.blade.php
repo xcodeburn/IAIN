@@ -1,14 +1,14 @@
 <nav class="navbar navbar-expand-lg bg-green">
         <div class="container" style="font-weight:500;">
             <div class="d-flex align-items-center">
-                <a href="" class="navbar-brand d-flex align-items-center" style="color:antiquewhite;font-size:25px;font-family: Times New Roman, Times, serif;margin-left: 120px;">
+                <a href="" class="navbar-brand d-flex align-items-center" style="color:antiquewhite;font-size:25px;font-family: Times New Roman, Times, serif;">
                     <span class="d-block fw-bold">Institut Agama Islam Rokan</span><br>
                     {{-- <span class="d-block fw-bold"></span> --}}
                 </a>
             </div>
             <!-- <a class="navbar-brand" style="color: #ecd31f;" href="#">IAIN</a> -->
             
-            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">   
             <li class="nav-item mx-3">
                 <a class="nav-link {{$title == 'home' ? 'active' : ''}}" style="color: #ecd31f;" href="/">Sistem Informasi</a>
@@ -41,7 +41,7 @@
             <a href="/about" class="nav-link active">profil</a>
         </li>
        <!-- dropdown -->
-       <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
+       <div class="dropdown2" style="font-weight: 500;text-transform:lowercase;">
             <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
                 fakultas
             </button>
