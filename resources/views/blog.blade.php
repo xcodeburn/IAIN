@@ -6,7 +6,7 @@
         @foreach ($posts as $post) <!-- looping ini array -->
         <div class="col-md-4">
             <div class="card">
-                <img src="img/3.jpg" alt="berita1" class="card-image-top">
+                <img src="{{ asset('img/3.webp') }}" alt="berita1" class="card-image-top">
                 <div class="card-body">
                     <h2><a href="/blog/{{ $post->slug }}">{{ $post->title }}</a></h2>
                     <h5>by : {{ $post->author }}</h5>
