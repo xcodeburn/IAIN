@@ -6,15 +6,12 @@
             <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
                 <div class="d-flex align-items-center">
                     <a href="" class="navbar-brand d-flex align-items-center" style='color:white;font-family:Arial, Helvetica, sans-serif'>
-                        <img src="{{ asset('img/IAIN.png') }}" alt="" class="me-2" width="50" height="70">
-                        <div>
-                            <span class="d-block fw-bold">Institut</span>
-                            <span class="d-block fw-bold">Agama Islam Rokan</span>
+                        <img src="{{ asset('img/IAIN.webp') }}" alt="" class="me-2" width="50" height="70">
+                            <span class="d-block fw-bold text-wrap"> Institut Agama Islam Rokan</span>
                             {{-- <span class="d-block fw-bold">Rokan</span> --}}
-                        </div>
                     </a>
                 </div>
-                
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
             <li class="nav-item mx-3">
                 <a class="nav-link {{$title == 'home' ? 'active' : ''}}" style="color: #ecd31f;" href="/">Sistem Informasi</a>
@@ -27,11 +24,11 @@
                 <a class="nav-link {{ $title == 'about' ? 'active' : ''}}" style="color: #ecd31f;" href="/no-page">Aduan & Saran</a>
                 </li>
             </ul>
-            <i class="fa fa-search" style="font-size:20px"></i>   
+            <i class="fa fa-search" style="font-size:20px"></i>  
             </div>
         </div>
 </nav>
-{{-- <img src="img/IAIN.png" alt="" class="iain-logo"> --}}
+{{-- <img src="img/IAIN.webp" alt="" class="iain-logo"> --}}
 <nav class="navbar navbar-expand-lg" style="background-color: #E7E7E7">
     <div class="container hv" style="font-weight:500; text-transform:uppercase;">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
