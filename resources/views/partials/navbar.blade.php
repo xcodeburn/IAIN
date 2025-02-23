@@ -1,8 +1,9 @@
 <nav class="navbar navbar-expand-lg bg-green">
-        <div class="container" style="font-weight:500;">
+        <div class="container nav1" style="font-weight:500;">
             <div class="d-flex align-items-center">
                 <a href="" class="navbar-brand d-flex align-items-center" style="color:antiquewhite;font-size:25px;font-family: Times New Roman, Times, serif;">
-                    <span class="d-block fw-bold">Institut Agama Islam Rokan</span><br>
+                    <img src="{{ asset('img/IAIN.webp') }}" alt="iair-logo">
+                    <span class="d-block fw-bold text-wrap">Institut Agama Islam Rokan</span><br>
                     {{-- <span class="d-block fw-bold"></span> --}}
                 </a>
             </div>
@@ -25,7 +26,7 @@
             </div>
         </div>
 </nav>
-<img src="{{ asset('img/IAIN.png') }}" alt="" class="iain-logo">
+<img src="{{ asset('img/IAIN.webp') }}" alt="" class="iain-logo">
 <nav class="navbar navbar-expand-lg">
     
     <div class="container" style="font-weight:500; text-transform:uppercase;">

@@ -18,13 +18,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/img/1.jpg" class="d-block w-100" alt="...">
+      <img src="/img/1.webp" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/img/2.jpg" class="d-block w-100" alt="...">
+      <img src="/img/2.webp" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/img/3.jpg" class="d-block w-100" alt="...">
+      <img src="/img/3.webp" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -48,7 +48,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="card">
-                <img src="img/3.jpg" alt="berita1" class="card-image-top">
+                <img src="img/3.webp" alt="berita1" class="card-image-top">
                 <div class="card-body">
                     <p class="card-title">
                         post nomor 1
@@ -59,7 +59,7 @@
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="img/3.jpg" alt="berita1" class="card-image-top">
+                <img src="img/3.webp" alt="berita1" class="card-image-top">
                 <div class="card-body">
                     <p class="card-title">
                         post nomor 2
@@ -70,7 +70,7 @@
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="img/3.jpg" alt="berita1" class="card-image-top">
+                <img src="img/3.webp" alt="berita1" class="card-image-top">
                 <div class="card-body">
                     <p class="card-title">
                         post nomor 3
@@ -85,12 +85,12 @@
 
     <div class="kerjasama">Kerjasama</div>
         <div class="kerja">
-            <img src="/img/baznas.png" alt="Logo 1" class="logo">
+            <img src="/img/baznas.webp" alt="Logo 1" class="logo">
             <img src="/img/bsi.svg" alt="Logo 2" class="logo">
-            <img src="/img/djp.svg.png" alt="Logo 3" class="logo">
-            <img src="/img/rohil.png" alt="Logo 4" class="logo">
-            <img src="/img/uin.png" alt="Logo 5" class="logo">
-            <img src="/img/mara.png" alt="Logo 6" class="logo" style="height:90px">
+            <img src="/img/djp.svg.webp" alt="Logo 3" class="logo">
+            <img src="/img/rohil.webp" alt="Logo 4" class="logo">
+            <img src="/img/uin.webp" alt="Logo 5" class="logo">
+            <img src="/img/mara.svg" alt="Logo 6" class="logo" style="height:90px">
             <img src="/img/mara.svg" alt="Logo 7" class="logo">
         </div>
 @endsection

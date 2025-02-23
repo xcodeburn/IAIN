@@ -52,6 +52,7 @@
 }
 .logo-footer {
     width: 120px;
+    float: none;
     margin: 15px 0;
 }
 .title {
@@ -144,7 +145,7 @@
     color: #ecd31f;
 }
 .bg-green span{
-    margin-left: 120px;
+    margin-left: 16px;
 }
 .iain-logo {
     position: absolute;
@@ -153,12 +154,29 @@
     z-index: 2;
     max-width: 80px;
 }
+.nav1{
+        margin-left: 200;
+    }
+.nav1 img{
+    display: none;
+}
 @media (max-width: 768px) { /* Untuk layar lebih kecil dari 768px */
     .iain-logo {
         display: none;
     }
     .bg-green{
         margin: 0;
+    }
+    .nav1{
+        margin-left: 0;
+    }
+    .nav1 img{
+        display: block;
+        width: auto;
+        height: 70;
+    }
+    .nav1 span{
+        font-size: 22;
     }
 }
 
