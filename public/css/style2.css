@@ -325,3 +325,44 @@
     display: block;
     margin: 0 auto;
 }
+
+/* dropdown */
+/* Mengatur posisi submenu */
+.dropdown3 .dropdown-menu{
+    display:none;
+}
+.dropend a{
+    color: #f6f6f6;
+}
+
+.dropdown3 > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.dropdown3 .dropdown-item {
+    color: #fff;
+    text-transform: capitalize;
+}
+.dropdown3 .dropdown-item:hover, .dropend .dropdown-item:hover {
+    background-color: var(--secondary-color);
+    color: black;
+}
+.dropdown3:hover > .dropdown-menu, .dropend:hover > .dropdown-menu{
+    display: block;
+    background-color: var(--main-color);
+    transition: 0.3s ease;
+    margin-top: .125em;
+    margin-left: .125em;
+}
+/* .dropend:hover > .dropdown-menu{
+    position:absolute;
+    top:0;
+    left:100%;
+} */
+@media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+}
