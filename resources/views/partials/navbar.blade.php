@@ -47,7 +47,7 @@
                 fakultas
             </button>
             <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item my-3" href="">Fakultas tarbiah dan keguruan (FTK)</a></li>
+                <li><a class="dropdown-item my-3" href="/fakultas">Fakultas tarbiah dan keguruan (FTK)</a></li>
                 <li><a class="dropdown-item my-3" href="">fakultas ekonomi dan bisnis islam (FEBI)</a></li>
                 {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
             </ul>

@@ -30,6 +30,11 @@ Route::get('/about', function () {
     ]); //tampilkan file yang ada dalam folder view dengan nama about, serta array assosiatif. 
     //key & value "" : untuk string 
 });
+
+Route::get('/fakultas', function (){
+    return view('fakultas',["title" => "fakultas kami"]);
+});
+
 Route::get('/no-page', function(){
     return view('no-page',[
         "title" => "no-page"
