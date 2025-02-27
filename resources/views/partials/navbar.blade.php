@@ -42,16 +42,32 @@
             <a href="/about" class="nav-link active">profil</a>
         </li>
        <!-- dropdown -->
-       <div class="dropdown2" style="font-weight: 500;text-transform:lowercase;">
-            <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
-                fakultas
-            </button>
-            <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item my-3" href="/fakultas">Fakultas tarbiah dan keguruan (FTK)</a></li>
-                <li><a class="dropdown-item my-3" href="">fakultas ekonomi dan bisnis islam (FEBI)</a></li>
-                {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+       <li class="nav-item dropdown3">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            fakultas
+          </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="nav-item dropend">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Fakultas tarbiah dan keguruan (FTK)
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="">S1 - Pendidikan Agama Islam (FAI)</a></li>
+                            <li><a class="dropdown-item" href="">S1 - Pendidikan Guru Agama Madrasah Ibtidaiyah (PGMI/PGSD)</a></li>
+                            <li><a class="dropdown-item" href="">S1 - Pendidikan Islam Anak Usia Dini (PIAUD/PGPAUD)</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item dropend">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        fakultas ekonomi dan bisnis islam (FEBI)
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="">S1 - Ekonomi Syariah</a></li>
+                            <li><a class="dropdown-item" href="">S2 - Ekonomi Syariah</a></li>
+                        </ul>
+                </li>
             </ul>
-        </div>
+        </li>
        <!-- dropdown -->
         <li class="nav-item mx-3">
             <a href="/no-page" class="nav-link">unit</a>
