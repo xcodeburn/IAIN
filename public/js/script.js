@@ -4466,3 +4466,31 @@
         }
     );
 });
+// dropdown menu
+// document.addEventListener("DOMContentLoaded", function () {
+//     const dropdownButtons = document.querySelectorAll(".dropdown-toggle");
+
+//     dropdownButtons.forEach((button) => {
+//         button.addEventListener("click", function (event) {
+//             // Mencegah aksi default (toggle buka/tutup)
+//             event.preventDefault();
+
+//             const dropdownMenu = button.nextElementSibling; // Mendapatkan menu dropdown
+//             const isOpen = dropdownMenu.classList.contains("show"); // Mengecek apakah dropdown terbuka
+
+//             // Menutup semua dropdown lainnya
+//             dropdownButtons.forEach((btn) => {
+//                 const menu = btn.nextElementSibling;
+//                 if (menu.classList.contains("show")) {
+//                     menu.classList.remove("show");
+//                 }
+//             });
+
+//             // Toggle menu dropdown yang diklik
+//             if (!isOpen) {
+//                 dropdownMenu.classList.add("show");
+//             }
+//         });
+//     });
+// });
+
