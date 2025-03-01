@@ -46,15 +46,15 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             fakultas
           </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu" style="text-transform: capitalize;" aria-labelledby="navbarDropdown">
                 <li class="nav-item dropend">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Fakultas tarbiah dan keguruan (FTK)
                     </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                            <li><a class="dropdown-item" href="">S1 - Pendidikan Agama Islam (FAI)</a></li>
-                            <li><a class="dropdown-item" href="">S1 - Pendidikan Guru Agama Madrasah Ibtidaiyah (PGMI/PGSD)</a></li>
-                            <li><a class="dropdown-item" href="">S1 - Pendidikan Islam Anak Usia Dini (PIAUD/PGPAUD)</a></li>
+                            <li><a class="dropdown-item" href="/fai">S1 - Pendidikan Agama Islam (FAI)</a></li>
+                            <li><a class="dropdown-item" href="/pgsd">S1 - Pendidikan Guru Agama Madrasah Ibtidaiyah (PGMI/PGSD)</a></li>
+                            <li><a class="dropdown-item" href="/pgpaud">S1 - Pendidikan Islam Anak Usia Dini (PIAUD/PGPAUD)</a></li>
                         </ul>
                 </li>
                 <li class="nav-item dropend">
@@ -62,8 +62,7 @@
                         fakultas ekonomi dan bisnis islam (FEBI)
                     </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                            <li><a class="dropdown-item" href="">S1 - Ekonomi Syariah</a></li>
-                            <li><a class="dropdown-item" href="">S2 - Ekonomi Syariah</a></li>
+                            <li><a class="dropdown-item" href="/ekonomi">S1 - Ekonomi Syariah</a></li>
                         </ul>
                 </li>
             </ul>

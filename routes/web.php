@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\homePostController;
 use Illuminate\Support\Facades\Route;
 use App\Models\post;/* menghubungkam ke file models class post */
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,12 +17,7 @@ use App\Models\post;/* menghubungkam ke file models class post */
 |
 */
 /* route dengan menggunakan clausur */
-Route::get('/', function () {
-    // return view('welcome'); //tampilkan file yang ada dalam folder view dengan nama welcome 
-    return view('home', [
-        "title" => "home"
-    ]); //tampilkan file yang ada dalam folder view dengan nama welcome 
-});
+Route::get('/', [homePostController::class, 'index']);
 Route::get('/about', function () {
     return view('about',[
         "name" => "IAIR",
@@ -31,8 +28,17 @@ Route::get('/about', function () {
     //key & value "" : untuk string 
 });
 
-Route::get('/fakultas', function (){
-    return view('fakultas',["title" => "fakultas kami"]);
+Route::get('/fai', function (){
+    return view('fai',["title" => "Pendidikan Agama Islam"]);
+});
+Route::get('/pgpaud', function (){
+    return view('pgpaud',["title" => "PIAUD | PGPAUD"]);
+});
+Route::get('/pgsd', function (){
+    return view('pgsd',["title" => "PGSD | PGMI"]);
+});
+Route::get('/ekonomi', function (){
+    return view('ekonomi',["title" => "Ekomoni"]);
 });
 
 Route::get('/no-page', function(){
