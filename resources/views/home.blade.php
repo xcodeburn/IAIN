@@ -39,25 +39,29 @@
 {{-- image slider --}}
 </div>
 <div class="container">
-    <div class="info-header" style="text-align: center; padding-top:100px">
+    <div class="info-header" style="text-align: center;">
         <h1 style="text-transform: uppercase;color: var(--main-color);">Info Kampus</h1>
-        <p> Updaate selalu berita-berita yang berhubungan dengan kegiatan kampus</p>
+        <p> Update selalu berita-berita yang berhubungan dengan kegiatan kampus</p>
     </div>
     {{-- berita kampaus --}}
     <h3 class="mb-4">Berita Kampus</h3>
     <div class="row">
-    @foreach ($posts as $post)
+       @if($posts->isEmpty())
+        <p>"Belum Ada Postingan"</p>
+      @else
+        @foreach ($posts as $post)
     <div class="col-md-4">
         <div class="card">
             <img src="img/3.webp" alt="berita1" class="card-image-top">
             <div class="card-body">
                     <h2><a href="/blog/{{ $post->slug }}">{{ $post->title }}</a></h2>
-                    <h5>by : {{ $post->author }}</h5>
+                    <h5>by : {{ $post->id }}</h5>
                     <p class="card-text">{{ $post->excerpt }}</p>
                 </div>
         </div>
     </div>
     @endforeach
+    @endif
     </div>
 </div>
 {{-- kerjasama --}}

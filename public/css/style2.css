@@ -348,6 +348,13 @@
     }
 }
 @media (max-width: 769px) { /* Untuk layar lebih kecil dari 768px */
+    .carousel-inner img{
+        max-height: 275;
+    }
+    .info-header{
+        padding-top: 0;
+        margin-top: 89;
+    }
     .iain-logo {
         display: none;
     }
