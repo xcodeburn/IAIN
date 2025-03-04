@@ -23,9 +23,9 @@
     <div class="carousel-item">
       <img src="/img/2.webp" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item">
+    {{-- <div class="carousel-item">
       <img src="/img/3.webp" class="d-block w-100" alt="...">
-    </div>
+    </div> --}}
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -44,24 +44,31 @@
         <p> Update selalu berita-berita yang berhubungan dengan kegiatan kampus</p>
     </div>
     {{-- berita kampaus --}}
-    <h3 class="mb-4">Berita Kampus</h3>
-    <div class="row">
-       @if($posts->isEmpty())
-        <p>"Belum Ada Postingan"</p>
-      @else
-        @foreach ($posts as $post)
-    <div class="col-md-4">
-        <div class="card">
-            <img src="img/3.webp" alt="berita1" class="card-image-top">
-            <div class="card-body">
-                    <h2><a href="/blog/{{ $post->slug }}">{{ $post->title }}</a></h2>
-                    <h5>by : {{ $post->id }}</h5>
-                    <p class="card-text">{{ $post->excerpt }}</p>
-                </div>
-        </div>
+    <div class="d-flex align-items-center">
+        <h2>Berita Kampus</h2>
+        <div class="flex-grow-1 border-bottom border-warning ms-3" style="height:8px;"></div>
     </div>
-    @endforeach
-    @endif
+    <div class="row">
+        @if($posts->isEmpty())
+            <p class="text-center fs-4">"Belum Ada Postingan"</p>
+        @else
+            @foreach ($posts as $post) <!-- looping ini array -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="{{ asset('img/4.webp') }}" alt="berita" class="card-image-top">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="/blog/{{ $post->slug }}" class="text-decoration-none text-dark">{{ $post->title }}</a></h3>
+                            {{-- <a href="/blog/{{ $post->slug }}" class="text-decortion-none">{{ $post->title }}</a> --}}
+                                <small>
+                                    <p>By. Admin {{ $post->author }}{{ $post->created_at->diffForHumans() }}</p>
+                                </small>
+                                <p class="card-text">{{ $post->excerpt }}</p>
+                                <a href="/blog/{{ $post->slug }}" class="text-decoration-none btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+        @endforeach
+        @endif
     </div>
 </div>
 {{-- kerjasama --}}
@@ -73,7 +80,7 @@
             <img src="/img/djp.svg.webp" alt="Logo 3" class="logo">
             <img src="/img/rohil.webp" alt="Logo 4" class="logo">
             <img src="/img/uin.webp" alt="Logo 5" class="logo">
-            <img src="/img/mara.svg" alt="Logo 6" class="logo" style="height:90px">
+            <img src="/img/mara.svg" alt="Logo 6" class="logo">
             <img src="/img/mara.svg" alt="Logo 7" class="logo">
         </div>
 @endsection

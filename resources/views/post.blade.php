@@ -14,16 +14,12 @@
             <!-- Sejarah Sekolah -->
             <img src="/img/sekolah.jpg" alt="Gambar Sekolah" class="school-image">
             <div class="left">
-                <h2 class="mb-5">{{ $post->title }}</h2>
-                <p>
-                {!! $post->body !!}</p> {{-- agar jika ada tag html, dapat diajalnkan sesuai fungsi --}}
+                <h2 class="mb-3">{{ $post->title }}</h2>
+                <p>By. Admin {{ $post->author }}{{ $post->created_at->diffForHumans() }}</p>
+                <article class="my-3">{!! $post->body !!}</article> {{-- agar jika ada tag html, dapat diajalnkan sesuai fungsi --}}
             </div>
-            <!-- Gambar -->
-            <div class="right">
-                
-            </div>
+            <a href="/blog" class="text-decoration-none"><- kembali ke berita</a>
         </div>
     </div>
-    <a href="/blog">back to school</a>
-</div>
+    
 @endsection

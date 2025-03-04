@@ -12,7 +12,7 @@
     <div class="container about">
         <div class="content mt-3">
             <!-- Sejarah Sekolah -->
-            <img src="/img/sekolah.jpg" alt="Gambar Sekolah" class="school-image">
+            <img src="/img/1.webp" alt="Gambar Sekolah" class="school-image">
             <div class="left">
                 <h2>Sekilas Tentang IAI-Rokan</h2>
                 <p>
