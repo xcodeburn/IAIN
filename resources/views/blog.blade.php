@@ -8,16 +8,20 @@
 
     <div class="row">
         @if($posts->isEmpty())
-            <p>"Belum Ada Postingan"</p>
+            <p class="text-center fs-4">"Belum Ada Postingan"</p>
         @else
             @foreach ($posts as $post) <!-- looping ini array -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="{{ asset('img/3.webp') }}" alt="berita1" class="card-image-top">
+                        <img src="{{ asset('img/4.webp') }}" alt="berita" class="card-image-top">
                         <div class="card-body">
-                            <h2><a href="/blog/{{ $post->slug }}">{{ $post->title }}</a></h2>
-                            <h5>by : {{ $post->id }}</h5>
-                            <p class="card-text">{{ $post->excerpt }}</p>
+                            <h3 class="card-title"><a href="/blog/{{ $post->slug }}" class="text-decoration-none text-dark">{{ $post->title }}</a></h3>
+                            {{-- <a href="/blog/{{ $post->slug }}" class="text-decortion-none">{{ $post->title }}</a> --}}
+                                <small>
+                                    <p>By. Admin {{ $post->author }}{{ $post->created_at->diffForHumans() }}</p>
+                                </small>
+                                <p class="card-text">{{ $post->excerpt }}</p>
+                                <a href="/blog/{{ $post->slug }}" class="text-decoration-none btn btn-primary">Read more</a>
                         </div>
                     </div>
                 </div>

@@ -12,21 +12,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">   
             <li class="nav-item mx-3">
-                <a class="nav-link {{$title == 'home' ? 'active' : ''}}" style="color: #ecd31f;" href="/">Sistem Informasi</a>
+                <a class="nav-link {{$title == 'home' ? 'active' : ''}}" style="color: #ecd31f;" href="/blog">Berita</a>
                 <!-- Jika tekan tombol home (title == home), maka kasih tanda -->
                 </li>
                 <li class="nav-item mx-3">
-                <a class="nav-link {{ $title == 'blog' ? 'active' : ''}}" style="color: #ecd31f;" href="/blog">PDDIKTI</a>
+                <a class="nav-link {{ $title == 'pddikti' ? 'active' : ''}}" style="color: #ecd31f;" href="https://pddikti.kemdiktisaintek.go.id/detail-pt/5g-7GwggR6Vj645L1_I6wBtQpsEvU1QiKCIlZDXW-4F8kxClI2qdcKnEHMh5kyOEU0FtCA==">PDDIKTI</a>
                 </li>
                 <li class="nav-item mx-3">
                 <a class="nav-link {{ $title == 'about' ? 'active' : ''}}" style="color: #ecd31f;" href="/no-page">Aduan & Saran</a>
                 </li>
             </ul>
-            <i class="fa fa-search" style="font-size:20px"></i>   
             </div>
         </div>
 </nav>
 <img src="{{ asset('img/IAIN.webp') }}" alt="" class="iain-logo">
+{{-- test dropdown --}}
 <nav class="navbar navbar-expand-lg">
     
     <div class="container" style="font-weight:500; text-transform:uppercase;">
@@ -34,7 +34,7 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-lg-0">
         <li class="nav-item mx-3">
             <a href="/" class="nav-link active">home</a>
         </li>
@@ -69,13 +69,10 @@
         </li>
        <!-- dropdown -->
         <li class="nav-item mx-3">
-            <a href="/no-page" class="nav-link">unit</a>
-        </li>
-        <li class="nav-item mx-3">
             <a href="/no-page" class="nav-link">Akademik</a>
         </li>
         <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
-            <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
+            <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase;" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
                 Mahasiswa
             </button>
             <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
@@ -85,9 +82,6 @@
                 {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
             </ul>
         </div>
-        <li class="nav-item mx-3">
-            <a href="/no-page" class="nav-link">penerimaan</a>
-        </li>
         <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
             <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
                 Document

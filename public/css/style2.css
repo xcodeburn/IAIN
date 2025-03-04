@@ -132,6 +132,10 @@
     height: 180px;
     object-fit: cover;
 }
+.card img{
+    height: 300px;
+    width:100%;
+}
 .no-page {
     width: 100%;
     height: auto;
@@ -207,7 +211,7 @@
 }
 /* Bagian konten (sejarah dan gambar) */
 .content {
-    margin: 150px auto;
+    /* margin: 150px auto; */
     width: 95%;
 }
 
@@ -217,7 +221,7 @@
 } */
 .content p {
     font-size: 20px;
-    margin-top: 26px;
+    /* margin-top: 26px; */
 }
 
 .left h2 {
@@ -335,6 +339,11 @@
     margin-top: .125em;
     margin-left: .125em;
 }
+.fakultas-image img{
+    border-radius: 8px;
+    max-height: 480px;
+    width: 100%;
+}
 /* .dropend:hover > .dropdown-menu{
     position:absolute;
     top:0;
@@ -346,6 +355,7 @@
         top: 0;
         left: 100%;
     }
+    
 }
 @media (max-width: 769px) { /* Untuk layar lebih kecil dari 768px */
     .carousel-inner img{
@@ -372,4 +382,32 @@
     .nav1 span{
         font-size: 22;
     }
+    .content img{
+        max-height:300px;
+        width: 100%;
+
+    }
 }
+/* ============ dropdown desktop view ============ */
+@media all and (min-width: 992px) {
+	.dropdown-menu li{ position: relative; 	}
+	.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: var(--secondary-color) }
+	.dropdown-menu > li:hover > .submenu{ display: block; }
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+  }
+}	
+/* ============ small devices .end// ============ */
