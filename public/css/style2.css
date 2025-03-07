@@ -223,6 +223,10 @@
     font-size: 20px;
     /* margin-top: 26px; */
 }
+.content img{
+    width: 1200px;
+    height: 300px;
+}
 
 .left h2 {
     color: #2c3e50;
