@@ -13,7 +13,7 @@
             @foreach ($posts as $post) <!-- looping ini array -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="{{ asset('img/4.webp') }}" alt="berita" class="card-image-top">
+                        <img src="{{ asset('img/'.$post->img) }}" alt="berita" class="card-image-top">
                         <div class="card-body">
                             <h3 class="card-title"><a href="/blog/{{ $post->slug }}" class="text-decoration-none text-dark">{{ $post->title }}</a></h3>
                             {{-- <a href="/blog/{{ $post->slug }}" class="text-decortion-none">{{ $post->title }}</a> --}}
