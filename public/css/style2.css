@@ -132,9 +132,9 @@
     height: 180px;
     object-fit: cover;
 }
-.card img{
+.card img {
     height: 300px;
-    width:100%;
+    width: 100%;
 }
 .no-page {
     width: 100%;
@@ -148,9 +148,10 @@
     background-color: #004129;
     color: #ecd31f;
 }
-.bg-green span{
+/* .bg-green span {
     margin-left: 16px;
-}
+} */
+
 .iain-logo {
     position: absolute;
     top: 9px;
@@ -158,10 +159,13 @@
     z-index: 2;
     max-width: 80px;
 }
-.nav1{
-        margin-left: 200;
-    }
-.nav1 img{
+.nav1 {
+    margin-left: 110;
+}
+.nav1 span {
+    margin-left: 110px;
+}
+.nav1 img {
     display: none;
 }
 
@@ -223,7 +227,7 @@
     font-size: 20px;
     /* margin-top: 26px; */
 }
-.content img{
+.content img {
     width: 1200px;
     height: 300px;
 }
@@ -317,10 +321,10 @@
 
 /* dropdown */
 /* Mengatur posisi submenu */
-.dropdown3 .dropdown-menu{
-    display:none;
+.dropdown3 .dropdown-menu {
+    display: none;
 }
-.dropend a{
+.dropend a {
     color: #f6f6f6;
 }
 
@@ -332,18 +336,20 @@
     color: #fff;
     text-transform: capitalize;
 }
-.dropdown3 .dropdown-item:hover, .dropend .dropdown-item:hover {
+.dropdown3 .dropdown-item:hover,
+.dropend .dropdown-item:hover {
     background-color: var(--secondary-color);
     color: black;
 }
-.dropdown3:hover > .dropdown-menu, .dropend:hover > .dropdown-menu{
+.dropdown3:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
     display: block;
     background-color: var(--main-color);
     transition: 0.3s ease;
-    margin-top: .125em;
-    margin-left: .125em;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
 }
-.fakultas-image img{
+.fakultas-image img {
     border-radius: 8px;
     max-height: 480px;
     width: 100%;
@@ -353,65 +359,112 @@
     top:0;
     left:100%;
 } */
+/* ============ dropdown desktop view ============ */
+@media (max-width: 1280px) {
+    .iain-logo {
+        margin-left: 110px;
+    }
+}
+/* ============ desktop view .end// ============ */
+/* ============ dropdown desktop view ============ */
+@media (max-width: 1024px) {
+    .iain-logo {
+        display: none;
+    }
+    .nav1 {
+        margin-left: 0px;
+    }
+    .nav1 img {
+        display: block;
+        width: auto;
+        height: 70;
+    }
+    .nav1 span {
+        margin-left: 14px;
+    }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ dropdown desktop view ============ */
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+    .dropdown-menu li {
+        position: relative;
+    }
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+    .dropdown-menu > li:hover {
+        background-color: var(--secondary-color);
+    }
+    .dropdown-menu > li:hover > .submenu {
+        display: block;
+    }
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+    .collapse img{
+        display: none;
+    }
+    /* .navbar-collapse ul li{
+        display: none;
+    } */
+    .nav1 {
+        margin-left: 0;
+    }
+    .iain-logo {
+        margin-left: 46px;
+    }
+}
+/* ============ small devices .end// ============ */
 @media (min-width: 769px) {
     .dropend:hover > .dropdown-menu {
         position: absolute;
         top: 0;
         left: 100%;
     }
-    
 }
-@media (max-width: 769px) { /* Untuk layar lebih kecil dari 768px */
-    .carousel-inner img{
+@media (max-width: 769px) {
+    /* Untuk layar lebih kecil dari 768px */
+    .carousel-inner img {
         max-height: 275;
     }
-    .info-header{
+    .info-header {
         padding-top: 0;
         margin-top: 89;
     }
     .iain-logo {
         display: none;
     }
-    .bg-green{
+    .bg-green {
         margin: 0;
     }
-    .nav1{
+    .nav1 {
         margin-left: 0;
     }
-    .nav1 img{
+    .nav1 img {
         display: block;
         width: auto;
         height: 70;
     }
-    .nav1 span{
+    .nav1 span {
         font-size: 22;
+        margin-left: 20px;
     }
-    .content img{
-        max-height:300px;
+    .content img {
+        max-height: 300px;
         width: 100%;
-
     }
 }
-/* ============ dropdown desktop view ============ */
-@media all and (min-width: 992px) {
-	.dropdown-menu li{ position: relative; 	}
-	.nav-item .submenu{ 
-		display: none;
-		position: absolute;
-		left:100%; top:-7px;
-	}
-	.nav-item .submenu-left{ 
-		right:100%; left:auto;
-	}
-	.dropdown-menu > li:hover{ background-color: var(--secondary-color) }
-	.dropdown-menu > li:hover > .submenu{ display: block; }
-}	
-/* ============ desktop view .end// ============ */
-
-/* ============ small devices ============ */
-@media (max-width: 991px) {
-  .dropdown-menu .dropdown-menu{
-      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
-  }
-}	
-/* ============ small devices .end// ============ */

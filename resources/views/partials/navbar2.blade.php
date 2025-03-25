@@ -13,99 +13,122 @@
                 </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-3">
-                <a class="nav-link {{$title == 'home' ? 'active' : ''}}" style="color: #ecd31f;" href="/">Sistem Informasi</a>
-                <!-- Jika tekan tombol home (title == home), maka kasih tanda -->
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" style="color: #ecd31f;" href="https://www.bankbsi.co.id">
+                        <img src="{{ asset('img/bsi2.webp') }}" alt="Berita Icon" style="width: 116px; height: 38px; margin-right: 8px;">
+                    </a>
                 </li>
                 <li class="nav-item mx-3">
-                <a class="nav-link {{ $title == 'blog' ? 'active' : ''}}" style="color: #ecd31f;" href="https://pddikti.kemdiktisaintek.go.id/detail-pt/5g-7GwggR6Vj645L1_I6wBtQpsEvU1QiKCIlZDXW-4F8kxClI2qdcKnEHMh5kyOEU0FtCA==">PDDIKTI</a>
+                    <a class="nav-link" style="color: #ecd31f;" href="/no-page">
+                        <img src="{{ asset('img/uin.webp') }}" alt="Berita Icon" style="width: 55px; height: 50px; margin-right: 8px;">
+                    </a>
                 </li>
                 <li class="nav-item mx-3">
-                <a class="nav-link {{ $title == 'about' ? 'active' : ''}}" style="color: #ecd31f;" href="/no-page">Aduan & Saran</a>
+                    <a class="nav-link" style="color: #ecd31f;" href="https://unishams.edu.my">
+                        <img src="{{ asset('img/unishams.webp') }}" alt="Berita Icon" style="width: 70px; height: 50px; margin-right: 8px;">
+                    </a>
                 </li>
             </ul>
-            </div>
+        </div>
         </div>
 </nav>
 {{-- <img src="img/IAIN.webp" alt="" class="iain-logo"> --}}
-<nav class="navbar navbar-expand-lg" style="background-color: #E7E7E7">
-    <div class="container hv" style="font-weight:500; text-transform:uppercase;">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg">
+    <div class="container" style="font-weight:500; text-transform:uppercase;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-lg-0">
-        <li class="nav-item mx-3">
-            <a href="/" class="nav-link active">home</a>
-        </li>
-        <li class="nav-item mx-3">
-            <a href="/about" class="nav-link active">profil</a>
-        </li>
-       <!-- dropdown -->
-       {{-- <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
-            <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
-                fakultas
-            </button>
-            <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item my-3" href="/fakultas">Fakultas tarbiah dan keguruan (FTK)</a></li>
-                <li><a class="dropdown-item my-3" href="">fakultas ekonomi dan bisnis islam (FEBI)</a></li>
-                {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
-            {{-- </ul>
-        </div> --}}
-        {{-- test --}}
-        <li class="nav-item dropdown3">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            fakultas
-          </a>
-            <ul class="dropdown-menu" style="text-transform: capitalize;" aria-labelledby="navbarDropdown">
-                <li class="nav-item dropend">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Fakultas tarbiah dan keguruan (FTK)
-                    </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                            <li><a class="dropdown-item" href="/fai">S1 - Pendidikan Agama Islam (FAI)</a></li>
-                            <li><a class="dropdown-item" href="/pgsd">S1 - Pendidikan Guru Agama Madrasah Ibtidaiyah (PGMI/PGSD)</a></li>
-                            <li><a class="dropdown-item" href="/pgpaud">S1 - Pendidikan Islam Anak Usia Dini (PIAUD/PGPAUD)</a></li>
-                        </ul>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-lg-0">
+                {{-- home --}}
+                <li class="nav-item mx-3">
+                    <a href="/" class="nav-link active">home</a>
                 </li>
-                <li class="nav-item dropend">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        fakultas ekonomi dan bisnis islam (FEBI)
-                    </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                            <li><a class="dropdown-item" href="/ekonomi">S1 - Ekonomi Syariah</a></li>
-                        </ul>
+                {{-- profile --}}
+                <li class="nav-item mx-3">
+                    <a href="/about" class="nav-link">profil</a>
                 </li>
-            </ul>
-        </li>
-       <!-- dropdown -->
-        <li class="nav-item mx-3">
-            <a href="/no-page" class="nav-link">Akademik</a>
-        </li>
-        <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
-            <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
-                Mahasiswa
-            </button>
-            <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item my-3" href="">PMB Mandiri</a></li>
-                <li><a class="dropdown-item my-3" href="">Registrasi Mahasiswa Baru</a></li>
-                <li><a class="dropdown-item my-3" href="">Beasiswa</a></li>
-                {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+                <!-- dropdown fakultas-->
+                <li class="nav-item dropdown2">
+                    <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase;" type="button" id="penerimaan" data-mdb-toggle="dropdown" aria-expanded="false">
+                        fakultas
+                    </button>
+                    <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="penerimaan">
+                        <li><a class="dropdown-item my-3" href="">Fakultas tarbiah dan keguruan (FTK)</a></li>
+                        <li><a class="dropdown-item my-3" href="">fakultas ekonomi dan bisnis islam (FEBI)</a></li>
+                        {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+                    </ul>
+                </li>
+                <!-- akhir dropdown fakultas -->
+                {{-- akademik --}}
+                <li class="nav-item dropdown2">
+                    <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase;" type="button" id="unit" data-mdb-toggle="dropdown" aria-expanded="false">
+                        unit
+                    </button>
+                    <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="unit">
+                        <li><a class="dropdown-item my-3" href="">perpustakaan dan struktural</a></li>
+                        <li><a class="dropdown-item my-3" href="">mahad</a></li>
+                        <li><a class="dropdown-item my-3" href="">pusat pengenbangan bisnis</a></li>
+                        <li><a class="dropdown-item my-3" href="">pusat pengenbangan bahasa</a></li>
+                        <li><a class="dropdown-item my-3" href="">satuan pengawas insternal</a></li>
+                        <li><a class="dropdown-item my-3" href="">pelaksaan teknis</a></li>
+                        <li><a class="dropdown-item my-3" href="">perencaan keuangan</a></li>
+                        {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+                    </ul>
+                </li>
+                <li class="nav-item dropdown2">
+                    <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase;" type="button" id="akademik" data-mdb-toggle="dropdown" aria-expanded="false">
+                        akademik
+                    </button>
+                    <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="akademik">
+                        <li><a class="dropdown-item my-3" href="">sistem informasi akademik terpadu</a></li>
+                        <li><a class="dropdown-item my-3" href="">buku pedoman akademik</a></li>
+                        <li><a class="dropdown-item my-3" href="">kalender akademik</a></li>
+                        <li><a class="dropdown-item my-3" href="">pedoman mahasiswa</a></li>
+                        <li><a class="dropdown-item my-3" href="">berkebutuhan khusus</a></li>
+                        {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+                    </ul>
+                </li>
+                <li class="nav-item dropdown2">
+                    <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase;" type="button" id="penerimaan" data-mdb-toggle="dropdown" aria-expanded="false">
+                        Penerimaan
+                    </button>
+                    <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="penerimaan">
+                        <li><a class="dropdown-item my-3" href="">jalur prestasi</a></li>
+                        <li><a class="dropdown-item my-3" href="">jalur mandiri</a></li>
+                        <li><a class="dropdown-item my-3" href="">jalur minat bakat</a></li>
+                        {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+                    </ul>
+                </li>
+                {{-- dropdown mahasiswa --}}
+                <li class="nav-item dropdown2">
+                    <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase;" type="button" id="mahasiswa" data-mdb-toggle="dropdown" aria-expanded="false">
+                        Mahasiswa
+                    </button>
+                    <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="mahasiswa">
+                        <li><a class="dropdown-item my-3" href="">organisansi intra mahasiswa</a></li>
+                        <li><a class="dropdown-item my-3" href="">unit kegiatan mahasiswa</a></li>
+                        <li><a class="dropdown-item my-3" href="">presatasi mahasiswa</a></li>
+                        <li><a class="dropdown-item my-3" href="">KKN</a></li>
+                        {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+                    </ul>
+                </li>
+                {{-- dropdown document --}}
+                <li class="nav-item dropdown2">
+                    <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase;" type="button" id="dokumen" data-mdb-toggle="dropdown" aria-expanded="false">
+                        Document
+                    </button>
+                    <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dokumen">
+                        <li><a class="dropdown-item my-3" href="#">Repository</a></li>
+                        <li><a class="dropdown-item my-3" href="#">E-Theses</a></li>
+                        <li><a class="dropdown-item my-3" href="#">E-Resourses</a></li>
+                        <li><a class="dropdown-item my-3" href="#">OPAC</a></li>
+                        <li><a class="dropdown-item my-3" href="#">E-Jornal</a></li>
+                        {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
+                    </ul>
+                </li>
+            {{-- akhir dropdown --}}
             </ul>
         </div>
-        <div class="dropdown2" style="font-weight: 500;text-transform:lowecase;">
-            <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase; type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
-                Document
-            </button>
-            <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item my-3" href="#">Repository</a></li>
-                <li><a class="dropdown-item my-3" href="#">E-Theses</a></li>
-                <li><a class="dropdown-item my-3" href="#">E-Resourses</a></li>
-                <li><a class="dropdown-item my-3" href="#">OPAC</a></li>
-                <li><a class="dropdown-item my-3" href="#">E-Jornal</a></li>
-                {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
-            </ul>
-        </div>
-    </ul>
     </div>
 </nav>
