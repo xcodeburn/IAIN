@@ -354,6 +354,12 @@
     max-height: 480px;
     width: 100%;
 }
+.header-nav-ico{
+    display: none;
+}
+.header-nav-ico{
+    display: none;
+}
 /* .dropend:hover > .dropdown-menu{
     position:absolute;
     top:0;
@@ -385,9 +391,6 @@
 }
 /* ============ desktop view .end// ============ */
 
-/* ============ dropdown desktop view ============ */
-/* ============ desktop view .end// ============ */
-
 /* ============ small devices ============ */
 @media (max-width: 991px) {
     .dropdown-menu li {
@@ -415,9 +418,9 @@
         margin-right: 0.7rem;
         margin-bottom: 0.5rem;
     }
-    .collapse img{
+    /* .collapse img{
         display: none;
-    }
+    } */
     /* .navbar-collapse ul li{
         display: none;
     } */
@@ -426,6 +429,12 @@
     }
     .iain-logo {
         margin-left: 46px;
+    }
+    .header-nav-ico{
+        display: block;
+    }
+    .mou{
+        display: none;
     }
 }
 /* ============ small devices .end// ============ */

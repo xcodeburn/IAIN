@@ -18,10 +18,10 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/img/1.webp" class="d-block w-100" alt="...">
+      <img src="{{ asset('/img/1.webp') }}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/img/2.webp" class="d-block w-100" alt="...">
+      <img src="{{ asset('/img/2.webp') }}" class="d-block w-100" alt="...">
     </div>
     {{-- <div class="carousel-item">
       <img src="/img/3.webp" class="d-block w-100" alt="...">
@@ -75,12 +75,12 @@
 
     <div class="kerjasama">Kerjasama</div>
         <div class="kerja">
-            <img src="/img/baznas.webp" alt="Logo 1" class="logo">
-            <img src="/img/bsi.svg" alt="Logo 2" class="logo">
-            <img src="/img/djp.svg.webp" alt="Logo 3" class="logo">
-            <img src="/img/rohil.webp" alt="Logo 4" class="logo">
-            <img src="/img/uin.webp" alt="Logo 5" class="logo">
-            <img src="/img/mara.svg" alt="Logo 6" class="logo">
-            <img src="/img/mara.svg" alt="Logo 7" class="logo">
+            <img src="{{ asset('/img/baznas.webp') }}" alt="Logo 1" class="logo">
+            <img src="{{ asset('/img/bsi2.webp') }}" alt="Logo 2" class="logo">
+            <img src="{{ asset('/img/djp.svg.webp') }}" alt="Logo 3" class="logo">
+            <img src="{{ asset('/img/mara.webp') }}" alt="Logo 7" class="logo">
+            <img src="{{ asset('/img/rohil.webp') }}" alt="Logo 4" class="logo">
+            <img src="{{ asset('/img/uin.webp') }}" alt="Logo 5" class="logo">
+            <img src="{{ asset('/img/unishams.webp') }}" alt="Logo 6" class="logo">
         </div>
 @endsection

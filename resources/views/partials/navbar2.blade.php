@@ -1,3 +1,25 @@
+<div class="container-fluid">
+    <nav class="header-nav-ico">
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+            <li class="nav-item mx-3">
+                <a class="nav-link active" style="color: #ecd31f;" href="https://www.bankbsi.co.id">
+                    <img src="{{ asset('img/bsi2.webp') }}" alt="Berita Icon" style="width: 116px; height: 38px; margin-right: 8px;">
+                </a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" style="color: #ecd31f;" href="/no-page">
+                    <img src="{{ asset('img/uin.webp') }}" alt="Berita Icon" style="width: 55px; height: 50px; margin-right: 8px;">
+                </a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" style="color: #ecd31f;" href="https://unishams.edu.my">
+                    <img src="{{ asset('img/unishams.webp') }}" alt="Berita Icon" style="width: 70px; height: 50px; margin-right: 8px;">
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
 <nav class="navbar navbar-expand-lg bg-green">
     <div class="container" style="font-weight:500;">
             
@@ -11,7 +33,7 @@
                             {{-- <span class="d-block fw-bold">Rokan</span> --}}
                     </a>
                 </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse mou" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-3">
                     <a class="nav-link active" style="color: #ecd31f;" href="https://www.bankbsi.co.id">
