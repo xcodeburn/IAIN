@@ -357,9 +357,6 @@
 .header-nav-ico{
     display: none;
 }
-.header-nav-ico{
-    display: none;
-}
 /* .dropend:hover > .dropdown-menu{
     position:absolute;
     top:0;
@@ -418,12 +415,6 @@
         margin-right: 0.7rem;
         margin-bottom: 0.5rem;
     }
-    /* .collapse img{
-        display: none;
-    } */
-    /* .navbar-collapse ul li{
-        display: none;
-    } */
     .nav1 {
         margin-left: 0;
     }

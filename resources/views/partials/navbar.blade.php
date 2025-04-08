@@ -24,21 +24,21 @@
     <div class="container-fluid" style="font-weight:500;">
         <div class="d-flex align-items-center nav1">
             <a href="" class="navbar-brand d-flex align-items-center" style="color:antiquewhite;font-size:25px;font-family: Times New Roman, Times, serif;">
-                <img src="http://127.0.0.1:8000/img/IAIN.webp" alt="iair-logo">
+                <img src="{{ asset('img/IAIN.webp') }}" alt="iair-logo">
                 <span class="d-block fw-bold text-wrap">Institut Agama Islam Rokan</span><br>
             </a>
         </div>
         
-        <div class="collapse navbar-collapse mou" id="navbarSupportedContent">
+        <div class="mou" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-3">
                     <a class="nav-link active" style="color: #ecd31f;" href="https://www.bankbsi.co.id">
-                        <img src="{{ asset('img/bsi2.webp') }}" alt="Berita Icon" style="width: 116px; height: 38px; margin-right: 8px;">
+                        <img src="{{ asset('img/bsi.webp') }}" alt="Berita Icon" style="width: 116px; height: 38px; margin-right: 8px;">
                     </a>
                 </li>
                 <li class="nav-item mx-3">
                     <a class="nav-link" style="color: #ecd31f;" href="/no-page">
-                        <img src="{{ asset('img/uin.webp') }}" alt="Berita Icon" style="width: 55px; height: 50px; margin-right: 8px;">
+                        <img src="{{ asset('img/uin-update.webp') }}" alt="Berita Icon" style="width: 55px; height: 50px; margin-right: 8px;">
                     </a>
                 </li>
                 <li class="nav-item mx-3">
