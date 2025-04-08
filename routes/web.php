@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\homePostController;
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 use App\Models\post;/* menghubungkam ke file models class post */
 
@@ -17,7 +18,7 @@ use App\Models\post;/* menghubungkam ke file models class post */
 |
 */
 /* route dengan menggunakan clausur */
-Route::get('/', [homePostController::class, 'index']);
+Route::get('/', [homePostController::class, 'index'])->name('home');
 Route::get('/about', function () {
     return view('about',[
         "name" => "IAIR",
@@ -46,6 +47,9 @@ Route::get('/no-page', function(){
         "title" => "no-page"
     ]);
 })->name('no-page');
+Route::get('login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('login', [AuthController::class, 'login']);
+Route::post('logout', [AuthController::class, 'logout'])->name('logout');
 
 /* route dengan menggunakan controller / tanpa clausur*/
 Route::get('/blog', [PostController::class, 'index']); /* hubungkan dengan controller */

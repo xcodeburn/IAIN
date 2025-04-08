@@ -76,11 +76,11 @@
     <div class="kerjasama">Kerjasama</div>
         <div class="kerja">
             <img src="{{ asset('/img/baznas.webp') }}" alt="Logo 1" class="logo">
-            <img src="{{ asset('/img/bsi2.webp') }}" alt="Logo 2" class="logo">
+            <img src="{{ asset('/img/bsi.webp') }}" alt="Logo 2" class="logo">
             <img src="{{ asset('/img/djp.svg.webp') }}" alt="Logo 3" class="logo">
             <img src="{{ asset('/img/mara.webp') }}" alt="Logo 7" class="logo">
             <img src="{{ asset('/img/rohil.webp') }}" alt="Logo 4" class="logo">
-            <img src="{{ asset('/img/uin.webp') }}" alt="Logo 5" class="logo">
+            <img src="{{ asset('/img/uin-update.webp') }}" alt="Logo 5" class="logo">
             <img src="{{ asset('/img/unishams.webp') }}" alt="Logo 6" class="logo">
         </div>
 @endsection
