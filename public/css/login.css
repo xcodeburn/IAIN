@@ -1,0 +1,64 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #000 url("/img/wall.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 40px;
+}
+
+.login-container {
+  height: 100vh;
+}
+
+.login-img {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+.login-img img{
+  width: 97vh;
+  height: auto;
+}
+
+.form-label {
+  color: #fff;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: #e0e0e0;
+}
+
+.btn-green {
+  background-color: #56ab2f;
+  border: none;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #3c8c20;
+}
+
+@media (max-width: 768px) {
+  .login-img {
+    display: none;
+  }
+  .glass {
+    padding: 30px 20px;
+  }
+}

@@ -18,14 +18,14 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ asset('/img/1.webp') }}" class="d-block w-100" alt="...">
+      <img src="{{ asset('/img/rektor.webp') }}" class="d-block w-100" alt="iai-rokan">
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('/img/2.webp') }}" class="d-block w-100" alt="...">
+      <img src="{{ asset('/img/1.webp') }}" class="d-block w-100" alt="iai-rokan">
     </div>
-    {{-- <div class="carousel-item">
-      <img src="/img/3.webp" class="d-block w-100" alt="...">
-    </div> --}}
+    <div class="carousel-item">
+      <img src="/img/2.webp" class="d-block w-100" alt="iai-rokan">
+    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -60,7 +60,7 @@
                             <h3 class="card-title"><a href="/blog/{{ $post->slug }}" class="text-decoration-none text-dark">{{ $post->title }}</a></h3>
                             {{-- <a href="/blog/{{ $post->slug }}" class="text-decortion-none">{{ $post->title }}</a> --}}
                                 <small>
-                                    <p>By. Admin {{ $post->author }}{{ $post->created_at->diffForHumans() }}</p>
+                                    <p>By. {{ $post->author }} | {{ $post->created_at->diffForHumans() }}</p>
                                 </small>
                                 <p class="card-text">{{ $post->excerpt }}</p>
                                 <a href="/blog/{{ $post->slug }}" class="text-decoration-none btn btn-primary">Read more</a>

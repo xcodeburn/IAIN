@@ -19,5 +19,11 @@ class PostController extends Controller
         "post" => $post
     ]); 
     }
+    // public function dash(post $dash){ /* menampilkan single post */
+    //     return view('dashboard',[
+    //     "title" => "single post",
+    //     "post" => $dash
+    // ]); 
+    // }
 
 }

@@ -10,7 +10,7 @@
             <h2>Daftar pengajar</h2>
             <div class="flex-grow-1 border-bottom border-warning ms-3" style="height:8px;"></div>
         </div>
-        <p>
+        <p class="intro-text">
         Kenalan lebih dekat dengan para dosen hebat yang siap membimbing dan menginspirasi!. Mereka bukan cuma ahli dibidangnya, tetapi juga selalu terbuka untuk berbagi ilmu dan pengalaman. Yuk, kenali siapa saja yang akan menemani perjalanan berlajarmu!
     </p>
     <table class="table">

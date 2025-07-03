@@ -40,16 +40,18 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 80px 5px;
+    color: #f6f6f6;
+    background: #383F45;
 }
-.left-section {
+/* .left-section {
     width: 45%;
     text-align: center;
     border-right: 1px solid #f6f6f6;
-}
-.right-section {
+} */
+/* .right-section {
     width: 55%;
     text-align: center;
-}
+} */
 .logo-footer {
     width: 120px;
     float: none;
@@ -71,13 +73,7 @@
 .social-icons {
     margin: 10px 0;
 }
-.social-icons a {
-    margin: 0 10px;
-    display: inline-block;
-}
-.social-icons img {
-    width: 30px;
-}
+
 .motto {
     font-size: 18px;
     font-style: italic;
@@ -105,7 +101,7 @@
     height: 60px;
     margin: 30px;
     border-radius: 50%;
-    background-color: #ffd700;
+    /* background-color: #ffd700; */
     padding: 10px;
 }
 .social-icons a {
@@ -467,4 +463,30 @@
         max-height: 300px;
         width: 100%;
     }
+}
+
+/* footer update */
+.left-section .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.logo-footer {
+    max-width: 100px;
+    height: auto;
+}
+
+.repository-menu h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.repository-menu ul li a {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.repository-menu ul li a:hover {
+    text-decoration: underline;
 }

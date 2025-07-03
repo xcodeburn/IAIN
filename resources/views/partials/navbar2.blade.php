@@ -3,12 +3,12 @@
         <ul class="navbar-nav ms-auto d-flex flex-row">
             <li class="nav-item mx-3">
                 <a class="nav-link active" style="color: #ecd31f;" href="https://www.bankbsi.co.id">
-                    <img src="{{ asset('img/bsi2.webp') }}" alt="Berita Icon" style="width: 116px; height: 38px; margin-right: 8px;">
+                    <img src="{{ asset('img/bsi.webp') }}" alt="Berita Icon" style="width: 116px; height: 38px; margin-right: 8px;">
                 </a>
             </li>
             <li class="nav-item mx-3">
                 <a class="nav-link" style="color: #ecd31f;" href="/no-page">
-                    <img src="{{ asset('img/uin.webp') }}" alt="Berita Icon" style="width: 55px; height: 50px; margin-right: 8px;">
+                    <img src="{{ asset('img/uin-update.webp') }}" alt="Berita Icon" style="width: 55px; height: 50px; margin-right: 8px;">
                 </a>
             </li>
             <li class="nav-item mx-3">
@@ -37,12 +37,12 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-3">
                     <a class="nav-link active" style="color: #ecd31f;" href="https://www.bankbsi.co.id">
-                        <img src="{{ asset('img/bsi2.webp') }}" alt="Berita Icon" style="width: 116px; height: 38px; margin-right: 8px;">
+                        <img src="{{ asset('img/bsi.webp') }}" alt="Berita Icon" style="width: 116px; height: 38px; margin-right: 8px;">
                     </a>
                 </li>
                 <li class="nav-item mx-3">
                     <a class="nav-link" style="color: #ecd31f;" href="/no-page">
-                        <img src="{{ asset('img/uin.webp') }}" alt="Berita Icon" style="width: 55px; height: 50px; margin-right: 8px;">
+                        <img src="{{ asset('img/uin-update.webp') }}" alt="Berita Icon" style="width: 55px; height: 50px; margin-right: 8px;">
                     </a>
                 </li>
                 <li class="nav-item mx-3">
@@ -76,8 +76,8 @@
                         fakultas
                     </button>
                     <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="penerimaan">
-                        <li><a class="dropdown-item my-3" href="">Fakultas tarbiah dan keguruan (FTK)</a></li>
-                        <li><a class="dropdown-item my-3" href="">fakultas ekonomi dan bisnis islam (FEBI)</a></li>
+                        <li><a class="dropdown-item my-3" href="/ftk">Fakultas tarbiah dan keguruan (FTK)</a></li>
+                        <li><a class="dropdown-item my-3" href="/febi">fakultas ekonomi dan bisnis islam (FEBI)</a></li>
                         {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
                     </ul>
                 </li>
@@ -136,18 +136,8 @@
                     </ul>
                 </li>
                 {{-- dropdown document --}}
-                <li class="nav-item dropdown2">
-                    <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="btn dropdown-toggle" style="font-weight: 500;text-transform:uppercase;" type="button" id="dokumen" data-mdb-toggle="dropdown" aria-expanded="false">
-                        Document
-                    </button>
-                    <ul class="dropdown-menu" style="color:#fff;" aria-labelledby="dokumen">
-                        <li><a class="dropdown-item my-3" href="#">Repository</a></li>
-                        <li><a class="dropdown-item my-3" href="#">E-Theses</a></li>
-                        <li><a class="dropdown-item my-3" href="#">E-Resourses</a></li>
-                        <li><a class="dropdown-item my-3" href="#">OPAC</a></li>
-                        <li><a class="dropdown-item my-3" href="#">E-Jornal</a></li>
-                        {{-- <li><a class="dropdown-item my-3" href="#">Something else here</a></li> --}}
-                    </ul>
+                <li class="nav-item mx-3">
+                    <a href="/" class="nav-link active">Document</a>
                 </li>
             {{-- akhir dropdown --}}
             </ul>
